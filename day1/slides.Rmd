@@ -1,1 +1,11 @@
 
+# Commands from the slides Day 1
+
+## Learn about a unix command
+* man <command> (e.g. man curl)
+
+## Download chr22 fasta file
+
+    curl http://hgdownload.cse.ucsc.edu/goldenPath/hg38/chromosomes/chr22.fa.gz > chr22.fa.gz
+    gzip -d chr22.fa.gz
+
