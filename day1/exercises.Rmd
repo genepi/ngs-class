@@ -1,12 +1,25 @@
 # Exercises
 
 ## Task 1
-
-Connect to our server with SSH and download [this file](http://hgdownload.cse.ucsc.edu/goldenPath/hg38/chromosomes/chr22.fa.gz)
-to your local directory. Count the amount of nucleotides ("characters") using the `wc` command. Check `man wc` to find the correct command.
-Note: Subtract the header characters to get the correct number!
+Connect to our server with your username/password (ssh protocol) and navigate to /data/sample with cd `cd /data/sample`. Execute the following commands: 
+* head -n 10 pg40854.txt
+* wc –l pg40854.txt 
+* grep Mendel pg40854.txt
 
 ## Task 2
+The grep commands helps to find patterns in a file. Please output all lines including the following sequences: AATTCGAA or AATTCCAA 
+
+## Task 3
+Write the results from Task 1 to a file named `nachname_task2.txt`
+
+## Task 4
+Connect to our server with SSH and download [this file](http://hgdownload.cse.ucsc.edu/goldenPath/hg38/chromosomes/chr22.fa.gz)
+to your local directory. Count the amount of nucleotides ("characters") using the `wc` command. Check `man wc` to find the correct command.
+Note: Subtract the header characters (`>chr22`) to get the correct number!
+
+## Task 5 (Bonus)
+Try to execute both commands (count the characters and subtract the header) using the pipe symbol (|) 
+Hint: The commands which need to be combined are `grep -v ">" chr22.fa` and `wc -m`)
 
 
 
