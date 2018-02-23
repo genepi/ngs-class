@@ -1,0 +1,12 @@
+# Exercises
+
+## Task 1
+
+Connect to our server with SSH and download [this file](http://hgdownload.cse.ucsc.edu/goldenPath/hg38/chromosomes/chr22.fa.gz)
+to your local directory. Count the amount of nucleotides ("characters") using the `wc` command. Check `man wc` to find the correct command.
+Note: Subtract the header characters to get the correct number!
+
+## Task 2
+
+
+
