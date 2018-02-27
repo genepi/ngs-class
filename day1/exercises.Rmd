@@ -7,10 +7,10 @@ Connect to our server with your username/password. From Windows, please use putt
 Execute some commands using `ls` `mkdir` and `cd`
 
 ## Task 3
-Navigate to /data/sample with cd `cd /data/sample`. Execute the following commands and interprete the output. 
-* head -n 10 pg40854.txt
-* wc –l pg40854.txt 
-* grep Mendel pg40854.txt
+Navigate to /data/sample with cd `cd /data/sample`. Execute the following commands and interpret the output. 
+* head -n 10 mendel.txt
+* wc –l mendel.txt 
+* grep Mendel mendel.txt
 
 ## Task 4
 The grep commands helps to find patterns in a file. Please output all lines including the following sequences: AATTCGAA or AATTCCAA 
