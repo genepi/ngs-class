@@ -1,5 +1,5 @@
 
-# Commands from the slides Day 1
+# Commands from the slides
 
 ## Learn about a unix command
 * man <command> (e.g. man curl)
