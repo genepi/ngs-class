@@ -9,7 +9,9 @@
     curl http://hgdownload.cse.ucsc.edu/goldenPath/hg38/chromosomes/chr22.fa.gz > chr22.fa.gz
     gzip -d chr22.fa.gz
 
-## Install htslib
+## VCF Format
+
+### Install htslib
  A library for high-throughput sequencing data formats
 
     wget https://github.com/samtools/htslib/releases/download/1.7/htslib-1.7.tar.bz2
@@ -19,5 +21,20 @@
     make
     make install
     
- ## Download vcf file   
+ ### Download vcf file   
      tabix -h ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20110521/ALL.chr6.phase1_release_v3.20101123.snps_indels_svs.genotypes.vcf.gz 6:161033785-161066618 > chr6_lpa.vcf
+     
+### Use Unix to extract samples
+     grep "#CHROM" chr6_lpa.vcf | cut -f 10- 
+     grep "#CHROM" chr6_lpa.vcf | cut -f 10- | xargs -n 1
+     
+## View File
+     bcftools view -chr6_lpa.vcf
+     bcftools view chr6_lpa.vcf | less
+## Extract samples
+       bcftools view -S list.txt chr6_lpa.vcf --force-samples -o ch6_lpa_subset.vcf
+       
+## Compress file and extract region
+      bgzip chr6_lpa.gz
+      tabix chr6_lpa.gz
+      bcftools view --regions 6:161036440 chr6_lpa.vcf.gz
