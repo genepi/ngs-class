@@ -41,6 +41,12 @@
       bcftools view --regions 6:161036440 chr6_lpa.vcf.gz
       
 ## bcftools 
-      cd /opt/data/vcf
-      bfctools index kiv2_variants.vcf
-      bcftools convert kiv2_variants.vcf -O b -o kiv2_variants.bcf
+    cd /opt/data/vcf
+    bfctools index kiv2_variants.vcf
+    bcftools convert kiv2_variants.vcf -O b -o kiv2_variants.bcf
+
+## bcftools improved
+    bgzip kiv2_variants.vcf
+    bcftools index kiv2_variants.vcf.gz
+    bcftools convert -r KIV2_6:4355-4355 kiv2_variants.vcf.gz
+
