@@ -1,4 +1,6 @@
-## Commands
+## A first NGS pipeline
+
+Execute the command and try to understand the commands 
 
 ### Create Index
     bwa index /opt/data/reference/kiv2_6.fasta 
