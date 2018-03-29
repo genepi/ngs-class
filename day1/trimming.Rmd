@@ -1,2 +1,11 @@
-## Trimming
-       git clone https://github.com/lh3/seqtk
+# Trimming
+
+## Installing Seqtk
+
+Toolkit for processing sequences in FASTA/Q formats
+
+    git clone https://github.com/lh3/seqtk
+    cd seqtk; make
+    ./seqtk seq -A /opt/data/opt/data/fastq/LPA-Plasmid-long-50-1-LongAmp-NEB_S78_L001_R1_001.fastq.gz > test.fasta
+    /opt/tools/seqtk/seqtk seq -A /opt/data/fastq/ \ /opt/data/fastq/LPA-Plasmid-long-50-1-LongAmp-NEB_S78_L001_R1_001.fastq.gz  > test.fasta
+
