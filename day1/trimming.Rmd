@@ -20,4 +20,4 @@ Toolkit for processing sequences in FASTA/Q formats
 
 ### FASTQC After
 
- /opt/tools/FastQC/fastqc /opt/data/fastq-trimming/out/trimmed-fastx.fq --outdir test
+    /opt/tools/FastQC/fastqc /opt/data/fastq-trimming/out/trimmed-fastx.fq --outdir test
