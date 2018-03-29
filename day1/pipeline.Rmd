@@ -6,7 +6,7 @@
 ### Align Reads
     bwa mem reference/kiv2_6.fasta alignment/students-data/students/LPA-Plasmid-long-50-1-LongAmp-NEB_S78_L001_R1_001.fastq.gz alignment/students-data/students/LPA-Plasmid-long-50-1-LongAmp-NEB_S78_L001_R2_001.fastq.gz | gzip -3 > aln-pe.sam.gz
 
-### Conver and Sort
+### Convert and Sort
     samtools view -Sb aln-pe.sam.gz > kiv2.bam
     samtools sort kiv2.bam > kiv2_sorted.bam
     
