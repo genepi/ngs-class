@@ -31,6 +31,7 @@
 ## View File
      bcftools view -chr6_lpa.vcf
      bcftools view chr6_lpa.vcf | less
+     
 ## Extract samples
        bcftools view -S list.txt chr6_lpa.vcf --force-samples -o ch6_lpa_subset.vcf
        
@@ -38,3 +39,8 @@
       bgzip chr6_lpa.gz
       tabix chr6_lpa.gz
       bcftools view --regions 6:161036440 chr6_lpa.vcf.gz
+      
+## bcftools 
+      cd /opt/data/vcf
+      bfctools index kiv2_variants.vcf
+      bcftools convert kiv2_variants.vcf -O b -o kiv2_variants.bcf
