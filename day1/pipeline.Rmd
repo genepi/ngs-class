@@ -6,7 +6,7 @@ Execute the command and try to understand the commands
     bwa index /opt/data/reference/kiv2_6.fasta 
     
 ### Align Reads
-    bwa mem /opt/data/reference/kiv2_6.fasta /opt/data/miseq/students-data/students/LPA-Plasmid-long-50-1-LongAmp-NEB_S78_L001_R1_001.fastq.gz /opt/data/miseq/students-data/students/LPA-Plasmid-long-50-1-LongAmp-NEB_S78_L001_R2_001.fastq.gz | gzip -3 > aln-pe.sam.gz
+    bwa mem /opt/data/reference/kiv2_6.fasta /opt/data/miseq/fastq/LPA-Plasmid-long-50-1-LongAmp-NEB_S78_L001_R1_001.fastq.gz /opt/data/miseq/fastq/LPA-Plasmid-long-50-1-LongAmp-NEB_S78_L001_R2_001.fastq.gz | gzip -3 > aln-pe.sam.gz
 
 ### Convert and Sort
     samtools view -Sb aln-pe.sam.gz > kiv2.bam
