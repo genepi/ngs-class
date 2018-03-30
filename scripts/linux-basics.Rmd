@@ -1,0 +1,13 @@
+# Exercises Unix Basics
+
+## Task 1
+Connect to our server with your username/password. From Windows, please use putty!
+
+## Task 2 
+Execute some commands using `ls` `mkdir` and `cd`
+
+## Task 3
+Navigate to /data/sample with cd `cd /data/sample`. Execute the following commands and interpret the output. 
+* head -n 10 mendel.txt
+* wc –l mendel.txt 
+* grep Mendel mendel.txt
