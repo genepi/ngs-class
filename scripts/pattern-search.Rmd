@@ -1,4 +1,4 @@
-# Exercises
+# Exercises Pattern Search
 
 Create a local file and copy your commands!
 
@@ -12,9 +12,13 @@ Write the results from Task 1 to a file named `nachname_task2.txt`
 Download [this file](http://hgdownload.cse.ucsc.edu/goldenPath/hg38/chromosomes/chr22.fa.gz)
 to your local directory using `wget`. Count the amount of nucleotides ("characters") using the `wc` command. Check `man wc` to find the correct command. Subtract the header characters (`>chr22`) to get the correct number!
 
-## Task 4 (Bonus)
+## Task 4 
 Try to execute both commands (count the characters and subtract the header) using the pipe symbol (`|`) 
-Hint: The commands which need to be combined are `grep -v ">" chr22.fa` and `wc -m`)
+The commands which need to be combined are `grep -v ">" chr22.fa` and `wc -m`)
+
+## Task 5
+Navigate to the folder `/opt/data/unix-tests`. There is file included called `snp150CodingDbSnp.txt.gz`. Read out the header (using zcat, head, pipe) and see what's included in the file. Explain the first 5 colums. Explanation to the columns can be found [here](http://www.noncode.org/cgi-bin/hgTables?hgsid=795065&hgta_doSchemaDb=hg38&hgta_doSchemaTable=snp150CodingDbSnp). 
+Additonally, output all coding SNPs from chr22 to a file (commands to use: zcat, pipe, grep) 
 
 
 
