@@ -10,10 +10,10 @@ Write the results from Task 1 to a file named `nachname_task2.txt`
 
 ## Task 3
 Download [this file](http://hgdownload.cse.ucsc.edu/goldenPath/hg38/chromosomes/chr22.fa.gz)
-to your local directory. Count the amount of nucleotides ("characters") using the `wc` command. Check `man wc` to find the correct command. Subtract the header characters (`>chr22`) to get the correct number!
+to your local directory using `wget`. Count the amount of nucleotides ("characters") using the `wc` command. Check `man wc` to find the correct command. Subtract the header characters (`>chr22`) to get the correct number!
 
 ## Task 4 (Bonus)
-Try to execute both commands (count the characters and subtract the header) using the pipe symbol (|) 
+Try to execute both commands (count the characters and subtract the header) using the pipe symbol (`|`) 
 Hint: The commands which need to be combined are `grep -v ">" chr22.fa` and `wc -m`)
 
 
