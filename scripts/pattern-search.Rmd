@@ -18,7 +18,7 @@ The commands which need to be combined are `grep -v ">" chr22.fa` and `wc -m`)
 
 ## Task 5
 Navigate to the folder `/opt/data/unix-tests`. There is file included called `snp150CodingDbSnp.txt.gz`. Read out the header (using zcat, head, pipe) and see what's included in the file. Explain the first 5 colums. Explanation to the columns can be found [here](http://www.noncode.org/cgi-bin/hgTables?hgsid=795065&hgta_doSchemaDb=hg38&hgta_doSchemaTable=snp150CodingDbSnp). 
-Additonally, output all coding SNPs from chr22 to a file (commands to use: zcat, pipe, grep) 
+Additionally, output all coding SNPs from chr22 to a file (commands to use: zcat, pipe, grep) 
 
 
 
