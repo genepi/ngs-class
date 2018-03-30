@@ -1,5 +1,7 @@
 # Exercises Unix Basics
 
+Create a local file and copy your commands!
+
 ## Task 1
 Connect to our server with your username/password. From Windows, please use putty!
 
@@ -7,7 +9,11 @@ Connect to our server with your username/password. From Windows, please use putt
 Execute some commands using `ls` `mkdir` and `cd`
 
 ## Task 3
-Navigate to /data/sample with cd `cd /data/sample`. Execute the following commands and interpret the output. 
+Navigate to opt/data/unix-tests. Execute the following commands and interpret the output. 
 * head -n 10 mendel.txt
 * wc –l mendel.txt 
 * grep Mendel mendel.txt
+
+## Task 4
+Check out http://oliverelliott.org/article/computing/ref_unix/, select two bash commands and explain them! 
+
