@@ -1,0 +1,19 @@
+## Mapping
+
+## Task 1 
+Install bwa from here: https://github.com/lh3/bwa
+
+## Task 2
+Create the index for our reference. It is located here: `/opt/data/reference/`
+
+## Task 3
+Execute paired-end alignment. Files are located here: `/opt/data/fastq`
+Command should look something like this:
+`bwa mem /opt/data/reference/kiv2_6.fasta <file1> <file2> |  gzip -3 > aln-pe.sam.gz`
+
+## Task 4 
+Convert output to BAM file format
+`samtools view -Sb aln-pe.sam.gz > out.bam`
+
+## Task 5 
+Execute `samtools view and samtools sort`
