@@ -5,12 +5,13 @@ Official information can be found [here](https://inside.i-med.ac.at/online/wbLv.
 
 ## Overall
 
-### Day 1
-* General Introduction (general structure, grades, exercises) [Stefan, Seb]
-* Idea of the course (Combining both biology and informatics; basic understanding of Unix; Computational Biology as a new branch in Biology,...) [Seb] 
-* NGS Basics [Stefan]
-* General Intro into Unix [Seb]
-* Unix & and Human Genome [Seb]
+### Day 1 12:00 - 16:45
+* General Introduction [Stefan, Seb]
+* Introduction Sequencing [Stefan]
+* NGS Technology Basics; Illumina; Iontorrent [Stefan]
+* Library types [Stefan]
+* Unix [Seb]
+* Unix Exercises [Seb] [Link to Exercises](https://github.com/seppinho/ngs-class/blob/master/scripts/linux-basics.Rmd)
 
 ### Day 2
 * NGS Lib [Stefan]
