@@ -1,19 +1,19 @@
 # Exercises Unix Basics
 
-Create a local file and copy your commands!
+Create a local file (e.g. Word or text file) with your name to save all commands (no results!)
 
 ## Task 1
 Connect to our server with your username/password. From Windows, please use putty!
 
 ## Task 2 
-Execute some commands using `ls` `mkdir` and `cd`
+Create a new directory in your home directory and navigate to it. 
 
 ## Task 3
-Navigate to opt/data/unix-tests. Execute the following commands and interpret the output. 
-* head -n 10 mendel.txt
-* wc –l mendel.txt 
-* grep Mendel mendel.txt
+Navigate to `/opt/data/datasets/teslovich_data`. How many lines are included in each file? (eGFRcys.csv and hdlsnps.csv)
 
 ## Task 4
-Check out http://oliverelliott.org/article/computing/ref_unix/, select two bash commands and explain them! 
+Again, navigate to `/opt/data/datasets/teslovich_data`. Now count the lines including the pattern rs1020. For doing that you have to combine the `grep` and the `|` command
+
+## Task 5
+Check out http://oliverelliott.org/article/computing/ref_unix/, select two bash commands, execute and explain them! 
 
