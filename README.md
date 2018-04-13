@@ -1,4 +1,4 @@
-# Next generation sequencing and nanopore sequencing: From wet lab and data processing to final interpretation
+# NGS-Class: Next generation sequencing and nanopore sequencing: From wet lab and data processing to final interpretation
 
 This repository includes exercises to the BGS class hold by Stefan Coassin and Sebastian Schoenherr at the Medical University of Innsbruck.
 
