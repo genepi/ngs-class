@@ -3,22 +3,24 @@
 Create a local file and copy your commands!
 
 ## Task 1
-The grep commands helps to find patterns in a file. Please output all lines including the following sequences: AATTCGAA or AATTCCAA 
+The grep commands helps to find patterns in a file. Navigate to `/opt/data/fasta-reference`.  Please output all lines including the following sequences: AATTCGAA or AATTCCAA
 
 ## Task 2
-Write the results from Task 1 to a file named `nachname_task2.txt`
+Write the results from Task 1 to a file using `>>`  
 
 ## Task 3
-Download [this file](http://hgdownload.cse.ucsc.edu/goldenPath/hg38/chromosomes/chr22.fa.gz)
-to your local directory using `wget`. Count the amount of nucleotides ("characters") using the `wc` command. Check `man wc` to find the correct command. Subtract the header characters (`>chr22`) to get the correct number!
+Can you find a way to combine both commands from above to one command. Hint: grep allows to use regular expressions like this: "Pattern1\|Pattern"
 
-## Task 4 
-Try to execute both commands (count the characters and subtract the header) using the pipe symbol (`|`) 
+## Task 4
+We have learned that chromosome 22 has 50,818,468 nucleotides. Navigate to `/opt/data/fasta-reference`. Count the amount of nucleotides ("characters") using the `wc -m` command. Check `man wc` to find out why `-m` is needed. Subtract the header characters (`>chr22`) to get the correct number of nucleotides!
+
+## Task 5 
+Try to execute both commands (count the characters without the header) using the pipe symbol (`|`) 
 The commands which need to be combined are `grep -v ">" chr22.fa` and `wc -m`)
 
-## Task 5
-Navigate to the folder `/opt/data/unix-tests`. There is file included called `snp150CodingDbSnp.txt.gz`. Read out the header (using zcat, head, pipe) and see what's included in the file. Explain the first 5 colums. Explanation to the columns can be found [here](http://www.noncode.org/cgi-bin/hgTables?hgsid=795065&hgta_doSchemaDb=hg38&hgta_doSchemaTable=snp150CodingDbSnp). 
-Additionally, output all coding SNPs from chr22 to a file (commands to use: zcat, pipe, grep) 
+## Task 6
+Navigate to the folder `/opt/data/unix-tests`. There is file included called `snp150CodingDbSnp.txt.gz`. Read out the first lines and see what's included in the file. Explain the first 5 colums. Explanation to the columns can be found [here](http://genome-test.soe.ucsc.edu/cgi-bin/hgTables?hgsid=393519006_wUuJbs2XGpPH137BbDrVtdkaKaIN&hgta_doSchemaDb=hg38&hgta_doSchemaTable=snp150CodingDbSnp). 
+Additionally, output all coding SNPs from chr22 to a file (commands to use: `grep` and `>`) 
 
 
 
