@@ -30,9 +30,8 @@ cat 5*R2*.fastq > merged_R2.fastq
 4) Download the reports locally and look at it in Firefox  
 
 5) run multiqc in top folder of the project (no need to enter in fastqc_report):   
-
 ```sh
 multiqc .  
 ```
 
-6) Download the multiqc report html file and look at it in firefox 
+6) Download the multiqc report html file and look at it in Firefox 
