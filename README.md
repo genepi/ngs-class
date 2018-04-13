@@ -30,7 +30,7 @@ Basic knowledge in both (a) genetics and (b) computer science/bioinformatics is 
 
 * Students QC various example data [Stefan]
 * How to install tools [Seb]
-* FastQC on trimmed products Exercise [Seb]
+* FastQC on trimmed products Exercise [Seb] [Link to Exercises](https://github.com/seppinho/ngs-class/blob/master/scripts/trimming.Rmd)
 * MinION Lab Action
 
 ### Day 3 
