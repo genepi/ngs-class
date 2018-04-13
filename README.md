@@ -1,4 +1,5 @@
-# ngs-class
+# Next generation sequencing and nanopore sequencing: From wet lab and data processing to final interpretation
+
 This repository includes all informations for the course "Next generation sequencing and nanopore sequencing: From wet lab and data processing to final interpretation" hold by Stefan Coassin and Sebastian Schoenherr at the Medical University of Innsbruck.
 
 Official information can be found [here](https://inside.i-med.ac.at/online/wbLv.wbShowLVDetail?pStpSpNr=857962).
