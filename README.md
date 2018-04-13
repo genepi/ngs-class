@@ -1,12 +1,14 @@
 # Next generation sequencing and nanopore sequencing: From wet lab and data processing to final interpretation
 
-This repository includes all necessary course information.
+## Goal
+Basic knowledge in both (a) genetics and (b) computer science/bioinformatics is needed to run genetic analyses and interpret results. The goal of this course is to give students insights in both areas (by two researchers with different background) and presenting students a blueprint for large-scale studies.  
 
-- Stefan Coassin (stefan.coassin@i-med.ac.at) and Sebastian Schoenherr (sebastian.schoenherr@i-med.ac.at)
-- Medical University of Innsbruck, Division of Genetic Epidemiology
-- Official information can be found [here](https://inside.i-med.ac.at/online/wbLv.wbShowLVDetail?pStpSpNr=857962).
+## Lecturer
+- Stefan Coassin (stefan.coassin@i-med.ac.at), Medical University of Innsbruck, Division of Genetic Epidemiology
+- Sebastian Schoenherr (sebastian.schoenherr@i-med.ac.at), Medical University of Innsbruck, Division of Genetic Epidemiology
+- Official course information can be found [here](https://inside.i-med.ac.at/online/wbLv.wbShowLVDetail?pStpSpNr=857962).
 
-## Overall
+## Timetable
 
 ### Day 1 12:00 - 16:45
 * General Introduction [Stefan, Seb]
@@ -16,9 +18,11 @@ This repository includes all necessary course information.
 * Unix [Seb]
 * Unix Exercises [Seb] [Link to Exercises](https://github.com/seppinho/ngs-class/blob/master/scripts/linux-basics.Rmd)
 
-### Day 2
-* NGS Lib [Stefan]
-* Preprocssing and Mapping [Seb]
+### Day 2 08:15 - 16:45
+* Unix + Human Genome [Seb]
+* Unix + Human Genome Exercises [Seb] [Link to Exercises](https://github.com/seppinho/ngs-class/blob/master/scripts/pattern-search.Rmd)
+* Data formats: FASTQ [Seb]
+* Look at datasets & navigate trough folders [Stefan]
 
 ### Day 3 
 * Variant Calling [Seb]
