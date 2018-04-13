@@ -25,7 +25,9 @@ Basic knowledge in both (a) genetics and (b) computer science/bioinformatics is 
 * Look at datasets & navigate through folders [Stefan]
 * Data QC: FASTQC, multiQC [Stefan]
 * Data QC: FASTQC, multiQC Exercises [Stefan]
+
 *Lunch
+
 * Students QC various example data [Stefan]
 * How to install tools [Seb]
 * FastQC on trimmed products Exercise [Seb]
