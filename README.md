@@ -22,7 +22,14 @@ Basic knowledge in both (a) genetics and (b) computer science/bioinformatics is 
 * Unix + Human Genome [Seb]
 * Unix + Human Genome Exercises [Seb] [Link to Exercises](https://github.com/seppinho/ngs-class/blob/master/scripts/pattern-search.Rmd)
 * Data formats: FASTQ [Seb]
-* Look at datasets & navigate trough folders [Stefan]
+* Look at datasets & navigate through folders [Stefan]
+* Data QC: FASTQC, multiQC [Stefan]
+* Data QC: FASTQC, multiQC Exercises [Stefan]
+*Lunch
+* Students QC various example data [Stefan]
+* How to install tools [Seb]
+* FastQC on trimmed products Exercise [Seb]
+* MinION Lab Action
 
 ### Day 3 
 * Variant Calling [Seb]
