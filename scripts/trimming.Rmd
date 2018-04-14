@@ -37,7 +37,7 @@ Execute the quality-filter command (/opt/tools/fastx/bin/fastq_quality_filter) a
 
 ## Advanced Bash Scripting
 
-    ```bash
+    ```sh
     for file in /home/sebastian/*
     do
     # do something on $file
