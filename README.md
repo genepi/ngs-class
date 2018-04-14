@@ -21,12 +21,12 @@ Basic knowledge in both (a) genetics and (b) computer science/bioinformatics is 
 ### Day 2 08:15 - 16:45
 * Unix + Human Genome [Seb]
 * Unix + Human Genome Exercises [Seb] [Link to Exercises](https://github.com/seppinho/ngs-class/blob/master/scripts/pattern-search.Rmd)
-* Data formats: FASTQ [Seb]
+* Data formats: FASTQ [Seb] 
 * Look at datasets & navigate through folders [Stefan] [Link to Tutorial](https://github.com/seppinho/ngs-class/blob/master/scripts/Stefan_FastQC.pdf)
 * Data QC: FASTQC, multiQC [Stefan]
 * Data QC: FASTQC, multiQC Exercises [Stefan]
 
-*Lunch
+*Lunch (12:30-13:00)
 
 * Students QC various example data [Stefan]
 * How to install tools [Seb]
