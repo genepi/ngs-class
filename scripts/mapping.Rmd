@@ -1,7 +1,7 @@
 ## Mapping
 
 ## Task 1 
-Install bwa from here: https://github.com/lh3/bwa
+Install bwa from here: https://github.com/lh3/bwa#getting-started
 
 ## Task 2
 Create the index for our reference (`bwa index ref.fa`). The fasta file is located here: `/opt/data/reference/`
@@ -12,8 +12,7 @@ Command should look something like this:
 `bwa mem /opt/data/reference/kiv2_6.fasta <file1> <file2> > aligned-file.sam`
 
 ## Task 4 
-Convert output to BAM file format
-`samtools view -Sb aln-pe.sam.gz > out.bam`
+Execute `samtools sort aligned-file.sam > aligned-file.bam` to sort the file
 
 ## Task 5 
-Execute `samtools view and samtools sort`
+Go to [this page](http://quinlanlab.org/tutorials/samtools/samtools.html) and learn about `samtools sort` `samtools index` and `samtools view`. 
