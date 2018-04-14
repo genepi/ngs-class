@@ -36,7 +36,7 @@ Basic knowledge in both (a) genetics and (b) computer science/bioinformatics is 
 ### Day 3 08:30 - 16:45
 * Alignment [Seb]
 * Alignment Demo [Seb]
-* Alignment Exercises [Seb]
+* Alignment Exercises [Seb] [Link to Exercises](https://github.com/seppinho/ngs-class/blob/master/scripts/mapping.Rmd)
 * Tablet viewer[Stefan]
 
 *Lunch (12:30-13:00)
