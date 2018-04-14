@@ -33,9 +33,18 @@ Basic knowledge in both (a) genetics and (b) computer science/bioinformatics is 
 * FastQC on trimmed products Exercise [Seb] [Link to Exercises](https://github.com/seppinho/ngs-class/blob/master/scripts/trimming.Rmd)
 * MinION Lab Action
 
-### Day 3 
-* Variant Calling [Seb]
-* Variant annontation [Stefan]
+### Day 3 08:30 - 16:45
+* Alignment [Seb]
+* Alignment Demo [Seb]
+* Alignment Exercises [Seb]
+* Tablet viewer[Stefan]
 
-## Day 4
+*Lunch (12:30-13:00)
+
+* Variant Calling [Seb]
+* Variant calling Demo [Seb]
+* Variant Calling Exercises [Seb]
+* Annotation [Stefan]
+
+### Day 4 08:30 - 16:45
 * Individiual Projects
