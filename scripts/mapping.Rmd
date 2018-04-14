@@ -4,7 +4,7 @@
 Install bwa from here: https://github.com/lh3/bwa
 
 ## Task 2
-Create the index for our reference. It is located here: `/opt/data/reference/`
+Create the index for our reference (`bwa index ref.fa`). The fasta file is located here: `/opt/data/reference/`
 
 ## Task 3
 Execute paired-end alignment. Files are located here: `/opt/data/fastq`
