@@ -34,3 +34,13 @@ Try to understand the commands, execute them and alter them. Check out the [webs
 ## Task 5: Execute a Quality Filter
 
 Execute the quality-filter command (/opt/tools/fastx/bin/fastq_quality_filter) and filter reads with a quality lower then 28. Please add the command line option -Q 33. Check out the [website](http://hannonlab.cshl.edu/fastx_toolkit/commandline.html#fastq_quality_filter_usage) for help! Execute the FASTQ report afterwards (as before).
+
+## Advanced Bash Scripting
+
+    ```bash
+    for file in /home/sebastian/*
+    do
+    # do something on $file
+    echo "$file"
+    done
+    ```
