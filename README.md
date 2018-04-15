@@ -24,7 +24,7 @@ Basic knowledge in both (a) genetics and (b) computer science/bioinformatics is 
 * Data formats: FASTQ [Seb] 
 * Look at datasets & navigate through folders [Stefan] [Link to Tutorial](https://github.com/seppinho/ngs-class/blob/master/scripts/Coassin_Tutorial.pdf)
 * Data QC: FASTQC, multiQC [Stefan]
-* Data QC: FASTQC, multiQC Exercises [Stefan] [Link to Exercises](https://github.com/seppinho/ngs-class/blob/master/scripts/Coassin_Exercises.pdf)
+* Data QC: FASTQC, multiQC Exercises [Stefan] [Link to Exercises](https://github.com/seppinho/ngs-class/blob/master/scripts/Coassin_Uebungen.pdf)
 
 *Lunch (12:30-13:00)
 
