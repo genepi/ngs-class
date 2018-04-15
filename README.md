@@ -43,7 +43,7 @@ Basic knowledge in both (a) genetics and (b) computer science/bioinformatics is 
 
 * Variant Calling [Seb]
 * Variant calling Demo [Seb]
-* Variant Calling Exercises [Seb]
+* Variant Calling Exercises [Seb] [Link to Exercises](https://github.com/seppinho/ngs-class/blob/master/scripts/variant-calling.md)
 * Annotation [Stefan]
 
 ### Day 4 08:30 - 16:45
