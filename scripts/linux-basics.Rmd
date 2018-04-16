@@ -14,6 +14,8 @@ Navigate to `/opt/data/datasets/teslovich_data`. How many lines are included in 
 ## Task 4
 Again, navigate to `/opt/data/datasets/teslovich_data`. Now count the lines including the pattern rs1020. For doing that you have to combine the `grep` and the `|` command
 
+---- Not necessary
+
 ## Task 5
 Check out http://oliverelliott.org/article/computing/ref_unix/, select two bash commands, execute and explain them! 
 
