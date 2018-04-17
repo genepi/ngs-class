@@ -48,3 +48,6 @@ Basic knowledge in both (a) genetics and (b) computer science/bioinformatics is 
 
 ### Day 4 08:30 - 16:45
 * Individiual Projects
+
+## Credits
+Check out Aaron Quinlan's fantastic class resources (here)[https://github.com/quinlan-lab/applied-computational-genomics].
