@@ -27,7 +27,7 @@ Try to understand the commands, execute them and alter them. Check out the [webs
 ### FASTQC Before
     /opt/tools/FastQC/fastqc /opt/data/fastq/LPA-Plasmid-long-50-1-LongAmp-NEB_S78_L001_R1_001.fastq.gz --outdir test
 ### FASTX
-    /opt/tools/fastx/bin/fastx_trimmer -v -f 7 -l 100 -Q 33 -i /opt/data/fastq/LPA-Plasmid-long-50-1-LongAmp-NEB_S78_L001_R1_001.fastq.gz -o trimmed-fastx.fq
+    /opt/tools/fastx/bin/fastx_trimmer -v -f 7 -l 100 -Q 33 -i /opt/data/fastq/LPA-Plasmid-long-50-1-LongAmp-NEB_S78_L001_R1_001.fastq -o trimmed-fastx.fq
 ### FASTQC After
     /opt/tools/FastQC/fastqc trimmed-fastx.fq --outdir test
 
