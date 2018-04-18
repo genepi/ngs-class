@@ -1,4 +1,4 @@
-## Genepi Hackathon
+## Genepi MinION Hackathon
 Welcome to the first Genepi Hackathon! Your task today as a to analyse data derived from the MinION, created within our course. 
 
 ## Task 0 - Introduction
