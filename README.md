@@ -7,7 +7,7 @@ Basic knowledge in both (a) genetics and (b) computer science/bioinformatics is 
 * Medical University of Innsbruck
 * Division of Genetic Epidemiology
 * Spring 2018
-* [Official course information](https://inside.i-med.ac.at/online/wbLv.wbShowLVDetail?pStpSpNr=857962).
+* [Official course information](https://inside.i-med.ac.at/online/wbLv.wbShowLVDetail?pStpSpNr=857962)
 
 ## Lecturer
 - Stefan Coassin (stefan.coassin@i-med.ac.at), Medical University of Innsbruck, Division of Genetic Epidemiology
