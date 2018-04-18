@@ -1,5 +1,5 @@
-## Hackathon
-Welcome to the first Genepi Hackathon! Your task today to analyse data derived from the MinION, created within our course. 
+## Genepi Hackathon
+Welcome to the first Genepi Hackathon! Your task today as a to analyse data derived from the MinION, created within our course. 
 
 ## Task 0 - Introduction
 The first task is to create fastq files from the fast5 files, which are created by the base caller. For that, poretools is used. We already executed this command the fastqc data can be found on the server (TODO). To learn about the poretools command click [here](https://github.com/seppinho/ngs-class/blob/master/scripts/commands.Rmd#convert-fast5-to-fastq-with-poretools).
