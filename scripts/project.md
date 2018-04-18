@@ -2,11 +2,13 @@
 Welcome to the first Genepi Hackathon! Your task today as a to analyse data derived from the MinION, created within our course. 
 
 ## Task 0 - Introduction
-The first task is to create fastq files from the fast5 files, which are created by the base caller Albacore. For the conversion FAST5 to FASTQ the [poretools](https://poretools.readthedocs.io/) are used. To save time, we already executed this command for you. The MinION fastq data can be found on the server at this location (TODO). To learn about the poretools convert command click [here](https://github.com/seppinho/ngs-class/blob/master/scripts/commands.Rmd#convert-fast5-to-fastq-with-poretools).
+The first task is to create fastq files from the fast5 files, which are created by the base caller Albacore. For the conversion FAST5 to FASTQ the [poretools](https://poretools.readthedocs.io/) are used. An example can be found here:
     
     cd
     poretools fastq /opt/tools/poretools/test_data/ > test.fastq
 
+ To save time, we already executed this command for our data. The MinION fastq data can be found on the server at this location (TODO).  
+ 
 ## Task 1 - Initial Quality Control
 
 ### Task 1.1 - Run FastQC
