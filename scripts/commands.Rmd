@@ -50,6 +50,10 @@
     bcftools index kiv2_variants.vcf.gz
     bcftools convert -r KIV2_6:4355-4355 kiv2_variants.vcf.gz
 
+## Convert fast5 to fastq with poretools
+
+    poretools fastq fast5/
+
 ## Run Poretools stats & hist on fast5 files
       poretools stats fast5/
 
