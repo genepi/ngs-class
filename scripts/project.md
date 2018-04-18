@@ -14,8 +14,8 @@ The first task is to create FASTQ files from the FAST5 files, which are created 
 ### Task 1.1 - Run FastQC
 Run the FASTQC program as learned (if you need help: https://github.com/seppinho/ngs-class/blob/master/scripts/Coassin_Tutorial.pdf) and summarize the results (e.g. copy some graphs or describe data).  
 
-## Task 1.2 - Run Pauvre
-A new QC tool for nanopore is `pauvre`. The tool is already installed. The command you need is `pauvre stats --fastq <fastq-file>`.  Save the results to a file using `>`. Please describe the results!
+### Task 1.2 - Run Pauvre
+A new QC tool for nanopore data is `pauvre`. The command you need is `pauvre stats --fastq <fastq-file>`.  Save the results to a file using `>`. Please describe the results!
 
 ### Task 1.3 - Generate Statistics from fast5
 It is also possible to run statistics on the FAST5 files. The necessary tool is `poretools stats <fast5>`. Check out [this resource](https://github.com/seppinho/ngs-class/blob/master/scripts/commands.Rmd#run-poretools-stats--hist-on-fast5-files) for help. Save the following statistics to a local file for all 6 barcodes:
