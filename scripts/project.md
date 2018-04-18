@@ -1,5 +1,5 @@
 ## Genepi MinION Hackathon
-Welcome to the first Genepi Hackathon! Your task today as a to analyse data derived from the MinION, created within our course. 
+Welcome to the first Genepi MinION Hackathon! Your task today is to analyse our created MinION metagenome data. 
 
 ## Task 0 - Introduction
 The first task is to create FASTQ files from the FAST5 files, which are created by the base caller Albacore. For the conversion FAST5 to FASTQ the [poretools](https://poretools.readthedocs.io/) are used. An example can be found here:
