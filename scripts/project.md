@@ -51,3 +51,20 @@ Select one bacteria of your choice. Find the reference genome sequence and run a
 
 ## Task 4 - Bonus
 After how many reads/bp/run time would have it been possible to correctly recognize the taxas? Using the file time stamp copy some subsets of reads into a folder and rerun Centrifuge.      
+
+## Task 5 - Metyhlation Pipeline
+
+      mkdir fastq
+      poretools fasta fast5/ > fasta/reads.fasta
+      grep ">" reads.fasta | wc -l
+
+     bwa index meth_ref.fasta
+     bwa mem -x ont2d meth_ref.fasta fasta/reads.fasta > meth_01.sam
+     samtools view -bS meth_01.sam > meth_01.bam
+     samtools sort meth_01.bam sorted_meth_01
+     samtools index sorted_meth_01.bam
+
+     /opt/tools/nanopolish/nanopolish call-methylation --progress -t 8 -r reads.fasta -g meth_ref.fasta -b sorted_meth_01.bam > methylation_01.tsv
+ 
+     python /opt/tools/nanopolish/nanopolish/scripts/calculate_methylation_frequency.py -c 2.5 -i methylation_01.tsv > methylation_01_freq.tsv
+
