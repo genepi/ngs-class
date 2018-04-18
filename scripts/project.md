@@ -2,17 +2,18 @@
 Welcome to the first Genepi Hackathon! Your task today as a to analyse data derived from the MinION, created within our course. 
 
 ## Task 0 - Introduction
-The first task is to create fastq files from the fast5 files, which are created by the base caller. For that, poretools is used. We already executed this command the fastqc data can be found on the server (TODO). To learn about the poretools command click [here](https://github.com/seppinho/ngs-class/blob/master/scripts/commands.Rmd#convert-fast5-to-fastq-with-poretools).
+The first task is to create fastq files from the fast5 files, which are created by the base caller. For this conversion, poretools is used. To save time, we already executed this command for you. The MinION fastq data can be found on the server (TODO). To learn about the poretools command click [here](https://github.com/seppinho/ngs-class/blob/master/scripts/commands.Rmd#convert-fast5-to-fastq-with-poretools).
 
-## Task 1 - FastQC
+## Task 1 - QC
 
-Run the FASTQC toolkit on the MinION data and summarize the results
+### Task 1.1 - Run FastQC
+Now, our fastq data is ready. Run the FASTQC program as learned in the course and summarize the results (e.g. copy some graphs or describe data).  
 
-## Task 2 - Metagenomics
-As learned, the next step would be to align our reads to the reference genome. Since we dont know our genomes yet, we have to do this now. 
+## Task 1.2 - Run Pauvre
+A new QC tool for nanopore is pauvre stats. The tool is already installed (Just enter `pauvre stats`). Learn how to execute it [here](https://github.com/conchoecia/pauvre#pauvre-a-plotting-package-designed-for-nanopore-and-pacbio-long-reads) and save the results. Please describe what you see!
 
-### Task 2.1 - Generate Statistics
-First, generate the following statistics for each barcode:
+### Task 2.3 - Generate Statistics from fast5
+Now generate the following statistics for each barcode using [poretools](https://poretools.readthedocs.io/). The necessary tool is `poretools stats <fast5>`. As you can see this tool operates on the fast5 files directly. Check out [this resource](https://github.com/seppinho/ngs-class/blob/master/scripts/commands.Rmd#run-poretools-stats--hist-on-fast5-files) for help.
 
 * Total reads
 * total bp
@@ -23,6 +24,9 @@ First, generate the following statistics for each barcode:
 * N25
 * N50
 * N75
+
+## Task 2 - Metagenomics
+As learned, the next step would be to map & align our reads to the reference genome. Since we don't know our genomes yet, we have to find out this now. 
 
 ### Task 2.2 - Execute FASTQC and Pauvre plots
 For all 6 samples save the html results to your results folder. Pauvre is a tool for nanopore data and the command can be found here. 
