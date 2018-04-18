@@ -2,7 +2,7 @@
 Welcome to the first Genepi Hackathon! Your task today as a to analyse data derived from the MinION, created within our course. 
 
 ## Task 0 - Introduction
-The first task is to create fastq files from the fast5 files, which are created by the base caller Albacore. For the conversion FAST5 to FASTQ the [poretools](https://poretools.readthedocs.io/) are used. An example can be found here:
+The first task is to create FASTQ files from the FAST5 files, which are created by the base caller Albacore. For the conversion FAST5 to FASTQ the [poretools](https://poretools.readthedocs.io/) are used. An example can be found here:
     
     cd
     poretools fastq /opt/tools/poretools/test_data/ > test.fastq
@@ -15,7 +15,7 @@ The first task is to create fastq files from the fast5 files, which are created 
 Run the FASTQC program as learned (if you need help: https://github.com/seppinho/ngs-class/blob/master/scripts/Coassin_Tutorial.pdf) and summarize the results (e.g. copy some graphs or describe data).  
 
 ## Task 1.2 - Run Pauvre
-A new QC tool for nanopore is `pauvre`. The tool is already installed (Just enter `pauvre stats`). Learn how to execute it [here](https://github.com/conchoecia/pauvre#pauvre-a-plotting-package-designed-for-nanopore-and-pacbio-long-reads) and save the results to a file. Please describe what you see!
+A new QC tool for nanopore is `pauvre`. The tool is already installed. The command you need is `pauvre stats --fastq <fastq-file>`.  Save the results to a file using `>`. Please describe the results!
 
 ### Task 1.3 - Generate Statistics from fast5
 It is also possible to run statistics on the FAST5 files. The necessary tool is `poretools stats <fast5>`. Check out [this resource](https://github.com/seppinho/ngs-class/blob/master/scripts/commands.Rmd#run-poretools-stats--hist-on-fast5-files) for help.
