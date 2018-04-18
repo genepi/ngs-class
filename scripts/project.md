@@ -18,7 +18,7 @@ Run the FASTQC program as learned (if you need help: https://github.com/seppinho
 A new QC tool for nanopore is `pauvre`. The tool is already installed. The command you need is `pauvre stats --fastq <fastq-file>`.  Save the results to a file using `>`. Please describe the results!
 
 ### Task 1.3 - Generate Statistics from fast5
-It is also possible to run statistics on the FAST5 files. The necessary tool is `poretools stats <fast5>`. Check out [this resource](https://github.com/seppinho/ngs-class/blob/master/scripts/commands.Rmd#run-poretools-stats--hist-on-fast5-files) for help.
+It is also possible to run statistics on the FAST5 files. The necessary tool is `poretools stats <fast5>`. Check out [this resource](https://github.com/seppinho/ngs-class/blob/master/scripts/commands.Rmd#run-poretools-stats--hist-on-fast5-files) for help. Save the following statistics to a local file for all 6 barcodes:
 
 * Total reads
 * total bp
