@@ -41,11 +41,10 @@ For doing that, we have to introduce a new tool called [kraken](https://ccb.jhu.
 ### Task 2.2 - Run Kraken Report
 To create a report, do the following:
 
-     /opt/tools/kraken-tool/kraken-report --db minikraken_20171013_4GB/ <out-older> > <report-file>
+     /opt/tools/kraken-tool/kraken-report --db /opt/tools/kraken/minikraken_20171013_4GB <out-older> > <report-file>
 
 ### Task 2.3 - Analyse report
 Find out which taxas are recognized in Barcode05 and 06.  What are the percentages? 
-
      
 ## Task 3 Align
 Select one bacteria of your choice. Find the reference genome sequence and run an alignment using https://github.com/lh3/minimap2 and call variants using freebayes (https://github.com/ekg/freebayes). 
