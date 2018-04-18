@@ -50,3 +50,18 @@
     bcftools index kiv2_variants.vcf.gz
     bcftools convert -r KIV2_6:4355-4355 kiv2_variants.vcf.gz
 
+## Run Poretools stats & hist on fast5 files
+      poretools stats fast5/
+
+## Run Histogramm (does not work ince we are using putty!)
+
+Use the min-length parameter to specify a lower bound of the read lengths to be displayed in the histogram (to get rid of all very short fragments)
+      
+      poretools hist --min-length 1000 fast5/
+
+## Run Pauvre and create report
+Run pauvre and write report in a file
+  
+         pauvre marginplot –n --fastq <fastq_file>
+
+         pauvre marginplot –n --fastq <fastq_file> > pauvre_report.txt
