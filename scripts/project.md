@@ -46,7 +46,7 @@ To create a report, do the following:
 ### Task 2.3 - Analyse report
 Find out which taxas are recognized in Barcode05 and 06.  What are the percentages? 
      
-## Task 3 Align
+## Task 3 Align & Variant Calling
 Select one bacteria of your choice. Find the reference genome sequence and run an alignment using https://github.com/lh3/minimap2 and call variants using freebayes (https://github.com/ekg/freebayes). 
 
 ## Task 4 - Bonus 1
