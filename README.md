@@ -43,14 +43,14 @@ Basic knowledge in both (a) genetics and (b) computer science/bioinformatics is 
 * Alignment [Seb]
 * Alignment Demo [Seb]
 * Alignment Exercises [Seb] [Link to Exercises](https://github.com/seppinho/ngs-class/blob/master/scripts/mapping.Rmd)
-* Tablet viewer[Stefan]
+* Tablet viewer [Stefan]
 
 *Lunch (12:30-13:00)
 
 * Variant Calling [Seb]
 * Variant calling Demo [Seb]
 * Variant Calling Exercises [Seb] [Link to Exercises](https://github.com/seppinho/ngs-class/blob/master/scripts/variant-calling.md)
-* Annotation [Stefan]
+* Annotation [Stefan] 
 
 ### Day 4 08:30 - 16:45
 * [Genepi Hackathon](https://github.com/seppinho/ngs-class/blob/master/scripts/project.md)
