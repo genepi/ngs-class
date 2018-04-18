@@ -31,7 +31,7 @@ It is also possible to run statistics on the FAST5 files. The necessary tool is 
 * N75
 
 ## Task 2 - Metagenomics
-As learned, the next step would be to map & align our reads to the reference genome using tools like `bwa mem`. Since we don't know our sequenced products, we have to find out this now. 
+The next step in a typical NGS pipeline is to map & align our reads to the reference genome using tools like `bwa mem`. Since we don't know our sequenced products yet, we have to find out this first. 
 
 ### Task 2.1 - Run Kraken
 For doing that, we have to introduce a new tool called [kraken](https://ccb.jhu.edu/software/kraken). Kraken is a system for assigning taxonomic labels to short DNA sequences, usually obtained through metagenomic studies. Please create a local out-folder in your home directory and specify the input fastq file!
