@@ -1,21 +1,24 @@
-## Individual projects
+## Hackathon
+Your task today to analyse data derived from the MinION, created within our course. 
 
-## Run Poretools stats & hist on fast5 files
-      poretools stats fast5/
+## FastQC
 
-poretools hist fast5/
-the hist command cannot be executed on the remote terminal
+Run the FASTQC toolkit on the MinION data and summarize the results
 
-poretools hist --min-length 1000 fast5/
-use the min-length parameter to specify a lower bound of the read lengths to be displayed in the histogram (to get rid of all very short fragments)
+## Metagenomics
+### Generate Statistics
+First, generate the following statistics for each barcode:
 
-2. PAUVRE on fastq
-pauvre marginplot –n --fastq <fastq_file>
+* Total reads
+* total bp
+* mean
+* median
+* min
+* max
+* N25
+* N50
+* N75
 
-write pauvre report in a file
-pauvre marginplot –n --fastq <fastq_file> > pauvre_report.txt
+### Execute FASTQC and Pauvre plots
+For all 6 samples save the html results to your results folder. Pauvre is a tool for nanopore data and the command can be found here. 
 
-look at report with (several options)
-cat pauvre_report.txt
-less pauvre_report.txt (hit “q” to exit)
-vi pauvre_report.txt (write “:q” to exit)
