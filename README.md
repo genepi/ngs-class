@@ -47,7 +47,7 @@ Basic knowledge in both (a) genetics and (b) computer science/bioinformatics is 
 * Annotation [Stefan]
 
 ### Day 4 08:30 - 16:45
-* Individiual Projects
+* [Genepi Hackathon](https://github.com/seppinho/ngs-class/blob/master/scripts/project.md)
 
 ## Credits
 Thanks to Aaron Quinnlan for providing such a [great resource](https://github.com/quinlan-lab/applied-computational-genomics).  
