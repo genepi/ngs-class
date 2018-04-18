@@ -49,10 +49,10 @@ Find out which taxas are recognized in Barcode05 and 06.  What are the percentag
 ## Task 3 Align
 Select one bacteria of your choice. Find the reference genome sequence and run an alignment using https://github.com/lh3/minimap2 and call variants using freebayes (https://github.com/ekg/freebayes). 
 
-## Task 4 - Bonus
+## Task 4 - Bonus 1
 After how many reads/bp/run time would have it been possible to correctly recognize the taxas? Using the file time stamp copy some subsets of reads into a folder and rerun Centrifuge.      
 
-## Task 5 - Metyhlation Pipeline
+## Task 5 - Bonus 2 Metyhlation Pipeline
 
       mkdir fastq
       poretools fasta fast5/ > fasta/reads.fasta
