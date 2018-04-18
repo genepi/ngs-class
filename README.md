@@ -1,5 +1,10 @@
 # Next generation sequencing and nanopore sequencing: From wet lab and data processing to final interpretation
 
+## Location & Time
+Medical University of Innsbruck
+Division of Genetic Epidemiology
+Spring 2018
+
 ## Goal
 Basic knowledge in both (a) genetics and (b) computer science/bioinformatics is needed to run genetic analyses and interpret results. The goal of this course is to give students insights in both areas (by two researchers with different background) and presenting students a blueprint for large-scale studies.  
 
