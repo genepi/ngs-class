@@ -42,7 +42,7 @@ The next step in a typical NGS pipeline is to map & align our reads to the refer
 ### Task 2.1 - Run Kraken
 For doing that, we have to introduce a new tool called [kraken](https://ccb.jhu.edu/software/kraken). Kraken is a system for assigning taxonomic labels to short DNA sequences, usually obtained through metagenomic studies. Please create a local out-folder in your home directory and specify the input fastq file!
 
-      /opt/tools/kraken-tool/kraken --db /opt/tools/kraken/minikraken_20171013_4GB/ --threads 1 --fastq-input --preload --output <out-folder> <input>
+      /opt/tools/kraken-tool/kraken --db /opt/tools/kraken/minikraken_20171013_4GB/ --threads 1 --fastq-input --preload --output <out-file> <input>
       
 ### Task 2.2 - Run Kraken Report
 To create a report, do the following:
