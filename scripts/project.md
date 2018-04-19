@@ -1,21 +1,24 @@
 ## Genepi MinION Hackathon
 Welcome to the first Genepi MinION Hackathon! Your task today is to analyse our created MinION metagenome data. 
 
+Since you work on your local laptops, please install filezilla (https://filezilla-project.org/) to copy the result files from our remote machine. 
+
 ## Task 0 - Introduction
-The first task is to create FASTQ files from the FAST5 files, which are created by the base caller Albacore. For the conversion FAST5 to FASTQ the [poretools](https://poretools.readthedocs.io/) are used. An example can be found here:
+The first task is to create FASTQ files from the basecalled FAST5 files. For the conversion FAST5 to FASTQ the [poretools](https://poretools.readthedocs.io/) are used. An example can be found here:
     
     cd
     poretools fastq /opt/tools/poretools/test_data/ > test.fastq
 
- To save time, we already executed this command for our data. The MinION fastq data can be found on the server at this location (TODO).  
- 
-## Task 1 - Initial Quality Control
+The MinION fastq data can be found on the server at this location (/scratch/ngs/experiment1). 6 barcodes exist. To save time, each group should create the fastq file for 1 barcode and communicate the FASTQ location to the other students. 
+
+  
+ ## Task 1 - Initial Quality Control
 
 ### Task 1.1 - Run FastQC
-Run the FASTQC program as learned (if you need help: https://github.com/seppinho/ngs-class/blob/master/scripts/Coassin_Tutorial.pdf) and summarize the results (e.g. copy some graphs or describe data).  
+Run the FASTQC program as learned (if you need help: https://github.com/seppinho/ngs-class/blob/master/scripts/Coassin_Tutorial.pdf) on all 6 files and summarize the results (e.g. copy some graphs or describe data).  
 
 ### Task 1.2 - Run Pauvre
-A new QC tool for nanopore data is `pauvre`. The command you need is `pauvre stats --fastq <fastq-file>`.  Save the results to a file using `>`. Please describe the results!
+A new QC tool for nanopore data is `pauvre`. The command you need is `pauvre marginplot --fastq <fastq-file>`  Save the results to a file using `>`. 
 
 ### Task 1.3 - Generate Statistics from fast5
 It is also possible to run statistics on the FAST5 files. The necessary tool is `poretools stats <fast5>`. Check out [this resource](https://github.com/seppinho/ngs-class/blob/master/scripts/commands.Rmd#run-poretools-stats--hist-on-fast5-files) for help. Save the following statistics to a local file for all 6 barcodes:
@@ -29,6 +32,9 @@ It is also possible to run statistics on the FAST5 files. The necessary tool is 
 * N25
 * N50
 * N75
+
+### Task 1.4 - Generate Histogramm Image from fast5
+Now, use also poretools hist to create a histogramm. Write result image into a file, since we operate on the command line. Use only reads with a minimum base length of 1Kb. 
 
 ## Task 2 - Metagenomics
 The next step in a typical NGS pipeline is to map & align our reads to the reference genome (e.g. using tools like `bwa mem`). Since our data is from a MinION metagenomic study, we have to find out the taxas first. 
