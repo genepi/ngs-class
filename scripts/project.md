@@ -33,7 +33,7 @@ It is also possible to run statistics on the FAST5 files. The necessary tool is 
 * N50
 * N75
 
-### Task 1.4 - Generate Histogramm Image from fast5
+### Task 1.4 - Generate Histogramm Image from fast5 (does not work with putty!)
 Now, use also poretools hist to create a histogramm. Write result image into a file, since we operate on the command line. Use only reads with a minimum base length of 1Kb. 
 
 ## Task 2 - Metagenomics
