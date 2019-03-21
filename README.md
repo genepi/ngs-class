@@ -6,7 +6,7 @@ Basic knowledge in both (a) genetics and (b) computer science/bioinformatics is 
 ## Location & Time
 * Medical University of Innsbruck
 * Division of Genetic Epidemiology
-* Spring 2018
+* Spring 2019
 * [Official course information](https://inside.i-med.ac.at/online/wbLv.wbShowLVDetail?pStpSpNr=857962)
 
 ## Lecturer
