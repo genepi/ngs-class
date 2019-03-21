@@ -19,7 +19,7 @@ Basic knowledge in both (a) genetics and (b) computer science/bioinformatics is 
 ### Day 1 12:00 - 16:45
 * General / Sequencing Introduction (12:00 - 12:30) [Stefan, Seb]
 * NGS Technology Basics; Illumina; Iontorrent (12:30 - 13:00) [Stefan]
-* Library types Single , Paired, mate (13:0 - 13:30)
+* Library types Single , Paired, mate (13:00 - 13:30)
 * Bioinformatics Introduction (13:30 -14:00) [Seb]
 * File Formats Introduction (14:00 -14:30) [Seb]
 * Linux (14:30 -16:45) [Seb]
