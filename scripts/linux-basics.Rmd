@@ -16,6 +16,3 @@ Again, navigate to `/opt/data/datasets/teslovich_data`. Now count the lines incl
 
 ## Task 5
 Check out http://oliverelliott.org/article/computing/ref_unix/, select two bash commands, execute and explain them! 
-
-## Task 6
-Got to [this](https://www.codecademy.com/courses/learn-the-command-line/lessons/navigation) website and go through the "Navigation" steps. 
