@@ -17,12 +17,13 @@ Basic knowledge in both (a) genetics and (b) computer science/bioinformatics is 
 ## Timetable
 
 ### Day 1 12:00 - 16:45
-* General Introduction [Stefan, Seb]
-* Introduction Sequencing [Stefan]
-* NGS Technology Basics; Illumina; Iontorrent [Stefan]
-* Library types [Stefan]
-* Unix [Seb]
-* Unix Exercises [Seb] [Link to Exercises](https://github.com/seppinho/ngs-class/blob/master/scripts/linux-basics.Rmd)
+* General / Sequencing Introduction (12:00 - 12:30) [Stefan, Seb]
+* NGS Technology Basics; Illumina; Iontorrent (12:30 - 13:00) [Stefan]
+* Library types Single , Paired, mate (13:0 - 13:30)
+* Bioinformatics Introduction (13:30 -14:00) [Seb]
+* File Formats Introduction (14:00 -14:30) [Seb]
+* Linux (14:30 -16:45) [Seb]
+*   Unix Exercises [Link to Exercises](https://github.com/seppinho/ngs-class/blob/master/scripts/linux-basics.Rmd)
 
 ### Day 2 08:15 - 16:45
 * Unix + Human Genome [Seb]
