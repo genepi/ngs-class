@@ -10,4 +10,6 @@ Command should look something like this:
 Execute `samtools sort aligned-file.sam > aligned-file.bam` to sort the file
 
 ## Task 3 
-Go to [this page](http://quinlanlab.org/tutorials/samtools/samtools.html), learn about `samtools view` and output the first 10 reads. Explain 1 line of the BAM file.  
+Go to [this page](http://quinlanlab.org/tutorials/samtools/samtools.html), 
+learn about `samtools view` and output the first 10 reads. 
+Explain 1 line of the BAM file.  
