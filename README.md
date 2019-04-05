@@ -21,7 +21,7 @@ Basic knowledge in both (a) genetics and (b) computer science/bioinformatics is 
 * Bioinformatics Introduction (13:30 -14:00) [Seb]
 * File Formats Introduction (14:00 -14:30) [Seb]
 * Linux (14:30 -16:45) [Seb]
-*   Unix Exercises [Link to Exercises](https://github.com/seppinho/ngs-class/blob/master/scripts/linux-basics.Rmd)
+* [Exercises](https://github.com/seppinho/ngs-class/blob/master/scripts/linux-basics.Rmd)
 
 ### Day 2 08:15 - 16:45
 * Human genome + Pattern Search [Seb]
