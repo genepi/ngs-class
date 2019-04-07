@@ -1,5 +1,5 @@
 ## Genepi MinION Hackathon
-Welcome to the first Genepi MinION Hackathon! Your task today is to analyse our created MinION metagenome data. 
+Welcome to the Genepi MinION Hackathon! Your task today is to analyse our created MinION metagenome data. 
 
 Since you work on your local laptops, please install filezilla (https://filezilla-project.org/) to copy the result files from our remote machine. 
 
