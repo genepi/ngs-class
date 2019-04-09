@@ -23,17 +23,17 @@ Basic knowledge in both (a) genetics and (b) computer science/bioinformatics is 
 * Linux (14:30 -16:45) [Seb]
 * [Exercises](https://github.com/seppinho/ngs-class/blob/master/scripts/linux-basics.Rmd)
 
-### Day 2 08:15 - 16:45
+### Day 2 08:45 - 16:00
 * Data formats: FASTQ [Seb] 
 * Look at datasets & navigate through folders [Stefan] [Link to Tutorial](https://github.com/seppinho/ngs-class/blob/master/scripts/Coassin_Tutorial.pdf)
 * Data QC: FASTQC, multiQC [Stefan]
 * Data QC: FASTQC, multiQC Exercises [Stefan] [Link to Exercises](https://github.com/seppinho/ngs-class/blob/master/scripts/Coassin_Uebungen.pdf)
 
-*Lunch (12:30-13:00)
+*Lunch
 
 * Students QC various example data [Stefan]
 * Install, Trim and Bash Scripting [Seb]
-* Install, Trim and Bash Scripting Exercise [Seb] [Link to Exercises](https://github.com/seppinho/ngs-class/blob/master/scripts/trimming.Rmd)
+* [Install, Trim and Bash Scripting](https://github.com/seppinho/ngs-class/blob/master/scripts/trimming.Rmd)
 * MinION Action
 
 ### Day 3 08:30 - 16:45
