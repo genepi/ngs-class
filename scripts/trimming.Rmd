@@ -1,4 +1,4 @@
-# Trimming of FASTQ
+# Tool Installation & Trimming of FASTQ
 
 A lot of different tools exist for trimming.
 
