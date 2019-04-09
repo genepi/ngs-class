@@ -17,11 +17,11 @@ Basic knowledge in both (a) genetics and (b) computer science/bioinformatics is 
 ### Day 1 12:00 - 16:45
 * General / Sequencing Introduction (12:00 - 12:30) [Stefan, Seb]
 * NGS Technology Basics; Illumina; Iontorrent (12:30 - 13:00) [Stefan]
-* Library types Single , Paired, mate (13:00 - 13:30)
+* Library types Single, Paired, mate (13:00 - 13:30)
 * Bioinformatics Introduction (13:30 -14:00) [Seb]
 * File Formats Introduction (14:00 -14:30) [Seb]
 * Linux (14:30 -16:45) [Seb]
-* [Exercises](https://github.com/seppinho/ngs-class/blob/master/scripts/linux-basics.Rmd)
+* [Exercises](https://github.com/seppinho/ngs-class/blob/master/scripts/linux-basics.md)
 
 ### Day 2 08:45 - 16:00
 * Data formats: FASTQ [Seb] 
@@ -33,7 +33,7 @@ Basic knowledge in both (a) genetics and (b) computer science/bioinformatics is 
 
 * Students QC various example data [Stefan]
 * Install, Trim and Bash Scripting [Seb]
-* [Install, Trim and Bash Scripting](https://github.com/seppinho/ngs-class/blob/master/scripts/trimming.Rmd)
+* [Install, Trim and Bash Scripting](https://github.com/seppinho/ngs-class/blob/master/scripts/trimming.md)
 * MinION Action [Stefan]
 
 ### Day 3 08:30 - 16:45
