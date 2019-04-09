@@ -2,7 +2,7 @@
 
 
 ## Task 1
-Execute paired-end alignment. Files are located here: `/opt/ngs/bam/input`
+Execute paired-end alignment. Pick a file from here: `/opt/ngs/fastq/exercises/miseq_lpa`
 Command should look something like this:
 `bwa mem /opt/ngs/ref/kiv2_6.fasta <file1> <file2> > aligned-file.sam`
 
