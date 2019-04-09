@@ -24,8 +24,6 @@ Basic knowledge in both (a) genetics and (b) computer science/bioinformatics is 
 * [Exercises](https://github.com/seppinho/ngs-class/blob/master/scripts/linux-basics.Rmd)
 
 ### Day 2 08:15 - 16:45
-* Human genome + Pattern Search [Seb]
-* Human genome + Pattern Search Exercises [Seb] [Link to Exercises](https://github.com/seppinho/ngs-class/blob/master/scripts/pattern-search.Rmd)
 * Data formats: FASTQ [Seb] 
 * Look at datasets & navigate through folders [Stefan] [Link to Tutorial](https://github.com/seppinho/ngs-class/blob/master/scripts/Coassin_Tutorial.pdf)
 * Data QC: FASTQC, multiQC [Stefan]
@@ -36,7 +34,7 @@ Basic knowledge in both (a) genetics and (b) computer science/bioinformatics is 
 * Students QC various example data [Stefan]
 * Install, Trim and Bash Scripting [Seb]
 * Install, Trim and Bash Scripting Exercise [Seb] [Link to Exercises](https://github.com/seppinho/ngs-class/blob/master/scripts/trimming.Rmd)
-* MinION Lab Action
+* MinION Action
 
 ### Day 3 08:30 - 16:45
 * Alignment [Seb]
