@@ -4,7 +4,7 @@ A lot of different tools exist for trimming.
 
 ## Task 1: Installing and Executing Seqtk
 
-Toolkit for processing sequences in FASTA/Q formats. First install the tool. Pick one of the files located in `/opt/ngs/fastq/exercises/miseq_lpa` and execute the command. Hint: A typo is included in the command. Try to locate it by executing simple `/.seqtk` 
+Toolkit for processing sequences in FASTA/Q formats. First install the tool. Pick one of the files located in `/opt/ngs/fastq/exercises/miseq_lpa` and execute the command. Hint: A typo is included in the command. Try to locate it by executing simple `./seqtk` 
 
     git clone https://github.com/lh3/seqtk
     cd seqtk; make
