@@ -32,15 +32,15 @@ Basic knowledge in both (a) genetics and (b) computer science/bioinformatics is 
 *Lunch
 
 * Students QC various example data [Stefan]
-* Install, Trim and Bash Scripting [Seb]
-* [Install, Trim and Bash Scripting](https://github.com/seppinho/ngs-class/blob/master/scripts/trimming.md)
+* Install Tools and Trim  [Seb]
+* [Install Tools and Trim](https://github.com/seppinho/ngs-class/blob/master/scripts/trimming.md)
 * MinION Action [Stefan]
 
 ### Day 3 08:30 - 16:45
+* Bash Scripting [Seb]
 * Alignment [Seb]
-* Alignment Demo [Seb]
-* Alignment Exercises [Seb] [Link to Exercises](https://github.com/seppinho/ngs-class/blob/master/scripts/mapping.Rmd)
-* Tablet viewer [Stefan]
+* [Alignment Exercises](https://github.com/seppinho/ngs-class/blob/master/scripts/mapping.md) [Seb] 
+* Tablet Viewer [Stefan]
 
 *Lunch (12:30-13:00)
 
