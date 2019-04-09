@@ -34,7 +34,7 @@ Basic knowledge in both (a) genetics and (b) computer science/bioinformatics is 
 * Students QC various example data [Stefan]
 * Install, Trim and Bash Scripting [Seb]
 * [Install, Trim and Bash Scripting](https://github.com/seppinho/ngs-class/blob/master/scripts/trimming.Rmd)
-* MinION Action
+* MinION Action [Stefan]
 
 ### Day 3 08:30 - 16:45
 * Alignment [Seb]
