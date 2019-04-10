@@ -8,7 +8,7 @@ Command should look something like this:
 
 ## Task 2 
 Execute `samtools sort aligned-file.sam > aligned-file.bam` to sort the file
- and `samtools index aligned-file.bam`
+ and `samtools index aligned-file.bam` to index the file.
 ## Task 3 
 Go to [this page](http://quinlanlab.org/tutorials/samtools/samtools.html), 
 learn about `samtools view` and output the first 10 reads. 
