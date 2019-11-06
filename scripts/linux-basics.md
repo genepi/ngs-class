@@ -7,7 +7,7 @@ Connect to our server with your username/password. From Windows, please use putt
 Create a new directory in your home directory and navigate to it. 
 
 ## Task 3
-`eGFRcys.csv` and `hdlsnps.csv` are located in the folder `genepi-teaching/ngs-bioinformatics/data/unix`. 
+`eGFRcys.csv` and `hdlsnps.csv` are located in the folder `genepi-teaching/ngs-bioinformatics/data/unix/teslovich`. 
 How many lines are included in each file?
 
 ## Task 4
