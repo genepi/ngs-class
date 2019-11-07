@@ -9,8 +9,9 @@ Basic knowledge in both (a) genetics and (b) computer science/bioinformatics is 
 * [Official course information](https://inside.i-med.ac.at/online/wbLv.wbShowLVDetail?pStpSpNr=862010)
 
 ## Lecturer
-- Stefan Coassin (stefan.coassin@i-med.ac.at), Institute of Genetic Epidemiology
-- Sebastian Schoenherr (sebastian.schoenherr@i-med.ac.at), Institute of Genetic Epidemiology
+[Stefan Coassin](stefan.coassin@i-med.ac.at), [Sebastian Schoenherr](sebastian.schoenherr@i-med.ac.at)  
+Institute of Genetic Epidemiology  
+Medical University of Innsbruck 
 
 ## Timetable
 
