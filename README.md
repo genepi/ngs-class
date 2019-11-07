@@ -1,20 +1,20 @@
-# Next generation sequencing and nanopore sequencing: From wet lab and data processing to final interpretation
+# Introduction to bioinformatic analysis of next (NGS) and 3rd generation sequencing data
 
 ## Overall Aim
 Basic knowledge in both (a) genetics and (b) computer science/bioinformatics is needed to run genetic analyses and interpret results. The goal of this course is to give students insights in both areas (by two researchers with different background) and presenting students a blueprint for large-scale studies.  
 
 ## Location & Time
-* April 8 - April 11 
-* Start: April 8 12:00
-* [Official course information](https://inside.i-med.ac.at/online/wbLv.wbShowLVDetail?pStpSpNr=858876)
+* November 11 - November 14 
+* Start: November 11 1:00pm
+* [Official course information](https://inside.i-med.ac.at/online/wbLv.wbShowLVDetail?pStpSpNr=862010)
 
 ## Lecturer
-- Stefan Coassin (stefan.coassin@i-med.ac.at), Division of Genetic Epidemiology
-- Sebastian Schoenherr (sebastian.schoenherr@i-med.ac.at), Division of Genetic Epidemiology
+- Stefan Coassin (stefan.coassin@i-med.ac.at), Institute of Genetic Epidemiology
+- Sebastian Schoenherr (sebastian.schoenherr@i-med.ac.at), Institute of Genetic Epidemiology
 
 ## Timetable
 
-### Day 1 12:00 - 16:45
+### Day 1 13:00 - 16:45
 * General / Sequencing Introduction (12:00 - 12:30) [Stefan, Seb]
 * NGS Technology Basics; Illumina; Iontorrent (12:30 - 13:00) [Stefan]
 * Library types Single, Paired, mate (13:00 - 13:30)
@@ -53,4 +53,4 @@ Basic knowledge in both (a) genetics and (b) computer science/bioinformatics is 
 * [Genepi Hackathon](https://github.com/seppinho/ngs-class/blob/master/scripts/project.md)
 
 ## Credits
-Thanks to Aaron Quinnlan for providing such a [great resource](https://github.com/quinlan-lab/applied-computational-genomics).  
+https://github.com/quinlan-lab/applied-computational-genomics
