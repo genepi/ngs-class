@@ -1,7 +1,7 @@
 # Introduction to bioinformatic analysis of next (NGS) and 3rd generation sequencing data
 
 ## Overall Aim
-Basic knowledge in both (a) genetics and (b) computer science/bioinformatics is needed to run genetic analyses and interpret results. The goal of this course is to give students insights in both areas (by two researchers with different background) and presenting students a blueprint for large-scale studies.  
+Basic knowledge in Genetics and and Computional Biology is needed to run genetic analyses and interpret results. The goal of this course is to give students insights in both areas and present them a blueprint for large-scale studies.  
 
 ## Location & Time
 * November 11 - November 14 
