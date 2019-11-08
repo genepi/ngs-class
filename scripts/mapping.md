@@ -2,14 +2,14 @@
 
 
 ## Task 1
-Execute paired-end alignment. Pick a file from here: `/opt/ngs/fastq/exercises/miseq_lpa`
+Execute paired-end alignment. Pick a file from here: `~/genepi-teaching/ngs-bioinformatics/data/fastq/exercises/miseq`
 Command should look something like this:
-`bwa mem /opt/ngs/ref/kiv2_6.fasta <file1> <file2> > aligned-file.sam`
+`bwa mem ~/genepi-teaching/ngs-bioinformatics/data/ref <file1> <file2> > ~/genepi-teaching/ngs-bioinformatics/students/<your-folder>/aligned-file.sam`
 
 ## Task 2 
 Execute `samtools sort aligned-file.sam > aligned-file.bam` to sort the file
  and `samtools index aligned-file.bam` to index the file.
+ 
 ## Task 3 
-Go to [this page](http://quinlanlab.org/tutorials/samtools/samtools.html), 
-learn about `samtools view` and output the first 10 reads. 
-Explain 1 line of the BAM file.  
+Run `samtools depth` on the file and interpret the output. 
+
