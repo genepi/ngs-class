@@ -14,7 +14,7 @@ For doing that, we have to introduce a new tool called [kraken](https://ccb.jhu.
 ### Run Kraken Report
 To create a report, do the following:
 
-     kraken-report --db /opt/tools/kraken/minikraken_20171013_4GB <out-older> > <report-file>
+     kraken-report --db /opt/tools/genetics/kraken/minikraken_20171013_4GB/ <input> > <report-file>
 
 ### Analyse report
 Find out which taxas are recognized in Barcode05 and 06.  What are the percentages? 
