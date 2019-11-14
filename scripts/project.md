@@ -7,7 +7,7 @@ Since you work on your local laptops, please install filezilla (https://filezill
 The next step in a typical NGS pipeline is to map & align our reads to the reference genome (e.g. using tools like `bwa mem`). Since our data is from a MinION metagenomic study, we have to find out the taxas first. 
 
 ### Run Kraken
-For doing that, we have to introduce a new tool called [kraken](https://ccb.jhu.edu/software/kraken). Kraken is a system for assigning taxonomic labels to short DNA sequences, usually obtained through metagenomic studies. Please create a local out-folder in your home directory and specify the input fastq file. Tool is installed at /opt/tools/genetics/kraken/.
+For doing that, we have to introduce a new tool called [kraken](https://ccb.jhu.edu/software/kraken). Kraken is a system for assigning taxonomic labels to short DNA sequences, usually obtained through metagenomic studies. Please create a local out-folder in your home directory and specify the input fastq file. Tool is installed at /opt/tools/genetics/kraken/, please specify the complete path to kraken!
 
       kraken --db /opt/tools/genetics/kraken/minikraken_20171013_4GB/ --threads 1 --fastq-input --preload --output <out-file> <input>
       
