@@ -1,44 +1,19 @@
-# Tool Installation & Trimming of FASTQ
+# Tool Installation & Tool Execution
 
-A lot of different tools exist for trimming.
+For all tasks use this input file: Input file: `~/genepi-teaching/ngs-bioinformatics/data/fastq/demo/miseq/5118_S39_L001_R1_001.fastq`
 
-## Task 1: Installing and Executing Seqtk
+## Task 1: Install and Run Fastp
 
-Toolkit for processing sequences in FASTA/Q formats. First install the tool. Pick one of the files located in `/opt/ngs/fastq/exercises/miseq_lpa` and execute the command. Hint: A typo is included in the command. Try to locate it by executing simple `./seqtk` 
+Go to https://github.com/OpenGene/fastp and install fastp using “compile from source” into your directory here:
+```genepi-lehre/teaching/ngs-bioinformatics/students/<your-q-number>/fastp```
 
-    git clone https://github.com/lh3/seqtk
-    cd seqtk; make
-    ./seqtk triimfq -l 20 <file> > trimmed-seqtk.fq
+Pick a fastq file and execute fastp and transfer report locally
 
-## Task 2: Try to understand what the command did
-Enter the following command and try to find the `-l` option
-          
-          /opt/tools/seqtk/seqtk trimfq
+./fastp -i ~/genepi-teaching/ngs-bioinformatics/data/fastq/demo/miseq/5118_S39_L001_R1_001.fastq -o updated-file.fq -h report.html
 
-## Task 3: Run it with FastQC
-Check graphically what it actually did. First execute the command below, than download results using WinSCP.
-        
-        /opt/tools/FastQC/fastqc trimmed-seqtk.fq --outdir test
+## Task 2: Executing Seqtk
 
-## Task 4: Run fastp
-
-Go to https://github.com/OpenGene/fastp and install the tool using “compile from source”. 
-Pick a FASTQ file from `/opt/ngs/fastq/exercises/miseq_lpa`. Then transfer report locally and analyse it.
+Seqtk is a toolkit for processing sequences in FASTA/Q formats. Please use seqtk to (a) extracts reads from a fastq file (using `sample`) and (b) to convert a fastq file to a fasta (using `seq -a`). Save your output files in ```genepi-lehre/teaching/ngs-bioinformatics/students/<your-q-number>/seqtk```.
 
 
-## Task 5: Bash Scripting
 
-- Write a BASH Script that executes FASTQC and uses the file name as an input parameter ($1).
-- Your task is to create a FASTA file from all FASTQ files in /opt/ngs/fastq/exercises/miseq_lpa. Use a for loop!
-
-To create a FASTA tool use this tool: `seqtk seq -a in.fq.gz > out.fa`
-
-Loop should look like this: 
-
-```sh
-for file in /path/to/folder/*
-do
-# do something on $file
-echo "$file"
-done
-```
