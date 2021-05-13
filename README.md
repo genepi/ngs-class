@@ -22,7 +22,7 @@ Medical University of Innsbruck
 * Bioinformatics Introduction
 * File Formats Introduction
 * Linux
-* [Exercises](https://github.com/seppinho/ngs-class/blob/master/scripts/linux-basics.md)
+* [Exercises Day 1](scripts/linux-basics.md)
 
 ### Day 2 08:45 - 16:00
 * Data formats: FASTQ 
@@ -34,8 +34,8 @@ Medical University of Innsbruck
 
 * Students QC various example data 
 * Install Tools and Trim  
-* [Install Tools and Trim](https://github.com/seppinho/ngs-class/blob/master/scripts/trimming.md)
-* MinION Action [Stefan]
+* [Exercises Day 2](scripts/tool-installation.md)
+
 
 ### Day 3 08:30 - 16:45
 * Bash Scripting [Seb]
