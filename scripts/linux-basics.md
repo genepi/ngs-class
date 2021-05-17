@@ -13,7 +13,7 @@ How many lines are included in each file?
 ## Task 4
 Now, try to find the SNPs your boss asked you. Use the `grep` command to output the lines from `eGFRcys.csv`. 
 As a pattern file use `hdlsnps.csv`. Also add the `-w` option. 
-Why do we need to add `-w`? (`eGFRcys.csv` and `hdlsnps.csv`). Write the results into the file `result.csv` located in the folder from Task 2.
+Why do we need to add `-w`? (`eGFRcys.csv` and `hdlsnps.csv`). Write the results into the file `result.csv` located in the folder from Task 2. How many SNPs did you find? Write them to a file and copy it to Windows.
 
 Data: `genepi-teaching/ngs-bioinformatics/data/unix/teslovich`
 
