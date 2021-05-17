@@ -1,7 +1,7 @@
 # Exercises Unix Basics
 
 ## Task 1
-Connect to our server with your username/password. From Windows, please use putty!
+Connect to our server with your username/password. From Windows, please use putty or the Windows Powershell!
 
 ## Task 2 
 Create a new directory in your home directory and navigate to it. 
