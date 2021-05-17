@@ -15,5 +15,5 @@ Now, try to find the SNPs your boss asked you. Use the `grep` command to output 
 As a pattern file use `hdlsnps.csv`. Also add the `-w` option. 
 Why do we need to add `-w`? (`eGFRcys.csv` and `hdlsnps.csv`). Write the results into the file `result.csv` located in the folder from Task 2.
 
-Data: `genepi-lehre/teaching/ngs-bioinformatics/data/unix/teslovich`
+Data: `genepi-teaching/ngs-bioinformatics/data/unix/teslovich`
 
