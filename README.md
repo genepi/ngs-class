@@ -16,15 +16,15 @@ Medical University of Innsbruck
 ## Timetable
 
 ### Day 1 [09:00 - 16:00]
-* General / Sequencing Introduction [until 09.30]
-* NGS Technology Basics; Illumina; Iontorrent
-* Library types Single, Paired, mate [until 11.30]
-* Bioinformatics Introduction 
+* General / Sequencing Introduction [09.00-09.30]
+* NGS Technology Basics; Illumina; Iontorrent [9.30-11.30 including break]
+* Library types Single, Paired, mate [9.30-11.30 including break]
+* Bioinformatics Introduction [11.30 - 12.30]
 
 *Lunch 12.30 - 13.15
 
-* Linux Introduction [until 16.00]
-* [Exercises Day 1](scripts/linux-basics.md)
+* Linux Introduction [13.15 - 15.15 including 15 min break]
+* [Exercises Day 1](scripts/linux-basics.md) [15.15-16.00]
 
 ### Day 2 09:00 - 16:00
 * Data formats: FASTQ 
@@ -34,13 +34,13 @@ Medical University of Innsbruck
 
 *Lunch
 
-* Students QC various example data 
 * Install Tools and Trim  
+* Bash Scripting
+* Introduction to Nextflow
 * [Exercises Day 2](scripts/tool-installation.md)
 
 
 ### Day 3 08:30 - 16:45
-* Bash Scripting [Seb]
 * Alignment [Seb]
 * [Alignment Exercises](https://github.com/seppinho/ngs-class/blob/master/scripts/mapping.md) [Seb] 
 * Tablet Viewer [Stefan]
