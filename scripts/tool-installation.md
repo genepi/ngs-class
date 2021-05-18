@@ -7,9 +7,10 @@ For all tasks use this input file: `~/genepi-teaching/ngs-bioinformatics/data/fa
 Go to https://github.com/OpenGene/fastp and install fastp using “compile from source” into your directory here:
 ```genepi-lehre/teaching/ngs-bioinformatics/students/<your-q-number>/fastp```
 
-Pick a fastq file and execute fastp and transfer report locally
+Pick a fastq file, execute fastp and transfer report locally
 
-`./fastp -i ~/genepi-teaching/ngs-bioinformatics/data/fastq/demo/miseq/5118_S39_L001_R1_001.fastq -o updated-file.fq -h report.html`
+**Bonus Task**: Execute FastQC on the new file. 
+
 
 ## Task 2: Executing Seqtk
 
