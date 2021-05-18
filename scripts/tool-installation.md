@@ -19,4 +19,8 @@ Seqtk is a toolkit for processing sequences in FASTA/Q formats. Please use seqtk
 Save your output files in ```genepi-lehre/teaching/ngs-bioinformatics/students/<your-q-number>/seqtk```.
 
 
+## Task 3: Create a script
+Create a script and execute seqtk on all files in `~/genepi-teaching/ngs-bioinformatics/data/fastq/demo/miseq/`
+
+
 
