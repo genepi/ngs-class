@@ -20,7 +20,11 @@ Save your output files in ```genepi-lehre/teaching/ngs-bioinformatics/students/<
 
 
 ## Task 3: Create a script
-Create a script and execute seqtk on all files in `~/genepi-teaching/ngs-bioinformatics/data/fastq/demo/miseq/`
+Create a for loop and execute seqtk on all files in `~/genepi-teaching/ngs-bioinformatics/data/fastq/demo/miseq/`
+
+
+## Task 4: Have a look at https://nf-co.re/
+Any pipelines available useful for your lab?
 
 
 
