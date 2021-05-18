@@ -27,17 +27,17 @@ Medical University of Innsbruck
 * [Exercises Day 1](scripts/linux-basics.md) [15.15-16.00]
 
 ### Day 2 09:00 - 16:00
-* Data formats: FASTQ 
-* Look at datasets & navigate through folders 
-* Data QC: FASTQC, multiQC 
-* Data QC: FASTQC, multiQC Exercises 
+* Data formats: FASTQ  (09.00 - 12.25)
+* Look at datasets & navigate through folders (09.00 - 12.25)
+* Data QC: FASTQC, multiQC (09.00 - 12.25)
+* Data QC: FASTQC, multiQC Exercises (09.00 - 12.25)
 
-*Lunch
+*Lunch (12.25 - 13.05)
 
-* Install Tools and Trim  
-* Bash Scripting
-* Introduction to Nextflow
-* [Exercises Day 2](scripts/tool-installation.md)
+* Install Tools and Trim (13.05 - 14.55)
+* Bash Scripting (13.10 - 14.55)
+* Introduction to Nextflow (15.10-15.45)
+* [Exercises Day 2](scripts/tool-installation.md) (skipped)
 
 
 ### Day 3 08:30 - 16:45
