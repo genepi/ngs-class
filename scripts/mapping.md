@@ -11,5 +11,5 @@ Execute `samtools sort <aligned-file.sam> > <aligned-file.bam>` to sort the file
  and `samtools index <aligned-file.bam>` to index the file.
  
 ## Task 3 
-Run `samtools depth <file.bam>` on the file and interpret the output. Learn about the `-a` parameter and add it to your script. 
+Run `samtools depth <file.bam>` on the file and interpret the output. Learn about the `-a` parameter and add it to your command. 
 
