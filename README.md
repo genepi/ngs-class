@@ -15,16 +15,18 @@ Medical University of Innsbruck
 
 ## Timetable
 
-### Day 1
-* General / Sequencing Introduction 
+### Day 1 [09:00 - 16:00]
+* General / Sequencing Introduction [until 09.30]
 * NGS Technology Basics; Illumina; Iontorrent
-* Library types Single, Paired, mate
-* Bioinformatics Introduction
-* File Formats Introduction
-* Linux
+* Library types Single, Paired, mate [until 11.30]
+* Bioinformatics Introduction 
+
+*Lunch 12.30 - 13.15
+
+* Linux Introduction [until 16.00]
 * [Exercises Day 1](scripts/linux-basics.md)
 
-### Day 2 08:45 - 16:00
+### Day 2 09:00 - 16:00
 * Data formats: FASTQ 
 * Look at datasets & navigate through folders 
 * Data QC: FASTQC, multiQC 
