@@ -16,17 +16,24 @@ Medical University of Innsbruck
 ## Timetable
 
 ### Day 1 [09:00 - 16:00]
+Stefan, Sebastian:
 * General / Sequencing Introduction [09.00-09.30]
+
+Stefan:
 * NGS Technology Basics; Illumina; Iontorrent [9.30-11.30 including break]
 * Library types Single, Paired, mate [9.30-11.30 including break]
+
+Sebastian:
 * Bioinformatics Introduction [11.30 - 12.30]
 
 *Lunch 12.30 - 13.15
 
+Sebastian:
 * Linux Introduction [13.15 - 15.15 including 15 min break]
 * [Exercises Day 1](scripts/linux-basics.md) [15.15-16.00]
 
 ### Day 2 09:00 - 16:00
+Stefan:
 * Data formats: FASTQ  (09.00 - 12.25)
 * Look at datasets & navigate through folders (09.00 - 12.25)
 * Data QC: FASTQC, multiQC (09.00 - 12.25)
@@ -34,26 +41,28 @@ Medical University of Innsbruck
 
 *Lunch (12.25 - 13.05)
 
+Sebastian:
 * Install Tools and Trim (13.05 - 14.55)
 * Bash Scripting (13.10 - 14.55)
 * Introduction to Nextflow (15.10-15.45)
 * [Exercises Day 2](scripts/tool-installation.md) (skipped)
 
 
-### Day 3 08:30 - 16:45
-* Alignment [Seb]
-* [Alignment Exercises](https://github.com/seppinho/ngs-class/blob/master/scripts/mapping.md) [Seb] 
-* Tablet Viewer [Stefan]
+### Day 3 09:00 - 16:20
+Sebastian:
+* Alignment (09.00 - 09.45)
+* [Alignment Exercises](https://github.com/seppinho/ngs-class/blob/master/scripts/mapping.md) (09.45 - 11.10 including 15 min break) 
+* Tablet Viewer, Variant Calling + Simple Exercise (11.10 - 11.50)
+* [Exercises](https://github.com/seppinho/ngs-class/blob/master/scripts/variant-calling.md) 
 
-*Lunch (12:30-13:00)
+*Lunch (11.50 - 13.10)
 
-* Variant Calling [Seb]
-* Variant calling Demo [Seb]
-* [Exercises](https://github.com/seppinho/ngs-class/blob/master/scripts/variant-calling.md) [Seb] 
-* Annotation [Stefan] 
+Stefan:
+* Annotation, BCFTools and VCFtools (13.10 - 16.20)
 
 ### Day 4 08:30 - 16:45
-* [Genepi Hackathon](https://github.com/seppinho/ngs-class/blob/master/scripts/project.md)
+Stefan, Sebastian:
+* Genepi Hackathon
 
 ## Credits
 https://github.com/quinlan-lab/applied-computational-genomics
