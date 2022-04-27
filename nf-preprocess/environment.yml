@@ -1,0 +1,15 @@
+# You can use this file to create a conda environment for this pipeline:
+#   conda env create -f environment.yml
+name: nf-preprocess
+channels:
+  - defaults
+  - bioconda
+  - conda-forge
+dependencies:
+  - samtools=1.13
+  - bedtools=2.30.0
+  - bwa=0.7.17
+  - openjdk=11.0.9
+  - unzip
+  - fastp
+  - multiqc
