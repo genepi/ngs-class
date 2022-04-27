@@ -31,6 +31,7 @@ Sebastian:
 
 Sebastian:
 * Linux Introduction [13.15 - 15.15 including 15 min break]
+* Install Tools and Trim
 * [Exercises Day 1](scripts/linux-basics.md) [15.15-16.00]
 
 ### Day 2 09:00 - 16:00
