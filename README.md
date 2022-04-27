@@ -1,12 +1,13 @@
-# Introduction to bioinformatic analysis of next (NGS) and 3rd generation sequencing data
+# Introduction to analysis of next (NGS) and third generation sequencing data
 
 ## Overall Aim
 Basic knowledge in Genetics and and Computional Biology is needed to run genetic analyses and interpret results. The goal of this course is to give students insights in both areas and present them a blueprint for large-scale studies.  
 
 ## Location & Time
-* May 17 - May 20 2021 
-* Start: May 17 9:00am
-* [Official course information](https://inside.i-med.ac.at/online/wbLv.wbShowLVDetail?pStpSpNr=865772)
+* May 02 - May 06 2022 
+* Start: May 02 9:00am
+* Location: Computerraum C1 (FP301200) Fritz Pregl Strasse 3, 1. OG
+* [Official course information](https://inside.i-med.ac.at/online/wbLv.wbShowLVDetail?pStpSpNr=868755)
 
 ## Lecturer
 [Stefan Coassin](stefan.coassin@i-med.ac.at), [Sebastian Schoenherr](sebastian.schoenherr@i-med.ac.at)  
