@@ -1,9 +1,11 @@
 process RUN_MULTIQC {
+  publishDir "${params.output}/reports", mode: "copy", pattern: '*.html'
   input:
-	  path json
+    path json
   output:
 	  path "*.html"
+
 	"""
-	 multiqc --file-list ${json} -o out.html
+	 multiqc . 
 	"""
 }
