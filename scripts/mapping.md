@@ -2,7 +2,7 @@
 
 
 ## Task 1
-Execute paired-end alignment. Pick a file from here: `/mnt/genepi-lehre/teaching/ngs-bioinformatics/data/fastq/exercises/miseq` and use this reference `/mnt/genepi-lehre/teaching/ngs-bioinformatics/data/ref/kiv2_6.fasta`
+Create a folder under students/<q-number> and execute paired-end alignment. Pick a file from here: `/mnt/genepi-lehre/teaching/ngs-bioinformatics/data/fastq/exercises/miseq` and use this reference `/mnt/genepi-lehre/teaching/ngs-bioinformatics/data/ref/kiv2_6.fasta`
 Command should look something like this:
 `bwa mem <fasta-reference> <r1.fq> <r2.fq> > <aligned-file.sam>`
 
@@ -13,3 +13,5 @@ Execute `samtools view -Sb <aligned-file.sam> > <aligned-file.bam>` to sort the 
 ## Task 3 
 Run `samtools depth <file.bam>` on the file and interpret the output. Learn about the `-a` parameter and add it to your command. 
 
+## Task 4
+ Open a BAM file with `samtools view` and try to identify some information (like position, read sequence, reference, etc). 
