@@ -7,13 +7,16 @@ Connect to our server with your username/password. From Windows, please use putt
 Create a new directory in your home directory and navigate to it. 
 
 ## Task 3
-`eGFRcys.csv` and `hdlsnps.csv` are located in the folder `genepi-teaching/ngs-bioinformatics/data/unix/teslovich`. 
+`eGFR_SNPs.csv` and `HDL_SNPs.txt` are located in the folder `genepi-teaching/ngs-bioinformatics/data/unix/snp_lookup`. 
 How many lines are included in each file?
 
 ## Task 4
-Now, try to find the SNPs your boss asked you. Use the `grep` command to output the lines from `eGFRcys.csv`. 
-As a pattern file use `hdlsnps.csv`. Also add the `-w` option. 
-Why do we need to add `-w`? (`eGFRcys.csv` and `hdlsnps.csv`). Write the results into the file `result.csv` located in the folder from Task 2. How many SNPs did you find? Write them to a file and copy it to Windows.
+Grep the SNP rs13326165 and the SNP rs17173637 from `genepi-teaching/ngs-bioinformatics/data/unix/snp_lookup` and write it to a file. 
 
-Data: `genepi-teaching/ngs-bioinformatics/data/unix/teslovich`
+## Task 5 [Stefan]
+Now, try to find the SNPs your boss asked you. Use the `grep` command to output the lines from `eGFR_SNPs.csv`. 
+As a pattern file use `HDL_SNPs.txt`. Also add the `-w` option. 
+Why do we need to add `-w`? (`eGFR_SNPs.csv` and `HDL_SNPs.txt`). How many SNPs did you find? Write them to a file and copy it to Windows.
+
+Data: `genepi-teaching/ngs-bioinformatics/data/unix/snp_lookup`
 
