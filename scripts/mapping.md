@@ -17,9 +17,9 @@ Now, we convert the file to the BAM format.
 Run `samtools depth <aligned-file-sorted.bam>` on the file and interpret the output. Learn about the `-a` parameter and add it to your command. 
 
 ## Tasks 4
- Download the file to Windows
+Download the file to Windows
  * Open a new Powershell and download the *.bam file and *.bam.bai file. Use your q-number instead of mine.
     * `scp q141ss@genepi-lehre.i-med.ac.at:genepi-teaching/students/q141ss/mapping/4153_sorted.bam* .`
 
- ## Task 5
- Install "Tablet" and load the BAM file via *Open Assembly*. You also need to specify the reference.  
+## Task 5
+Install "Tablet" (*.exe availablle in the Shared Drive) and load the BAM file via *Open Assembly*. You also need to specify the reference, you can find the KIV_2.fasta reference in the Shared Drive.   
