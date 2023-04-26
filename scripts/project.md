@@ -1,38 +1,31 @@
 ## Genepi Hackathon
-Welcome to the Genepi MinION Hackathon! Your task today is to analyse our created MinION metagenome data. 
+Welcome to the Genepi MinION Hackathon! Your task today is to analyse mtDNA data generated from Oxford Nanopore. 
 
-Since you work on your local laptops, please install filezilla (https://filezilla-project.org/) to copy the result files from our remote machine. 
+## Setup
+* Create a Word Document (named: SS23_NGS_PHD_Surname.docx) and document what you did (e.g. commands, screenshots, graphics). This file must be sent to us at the end of the class.
+* Create a folder `project-day` within  `genepi-teaching/students/<your-q-number>`. 
+* Copy resulting fastqs from one of the barcodes (barcode 01 - barcode 12) to project-day. The files are located here: `~/genepi-teaching/ngs-bioinformatics/2023-molmed/seq_data/fastq_pass/barcode*/*fastq`
 
-## Task Metagenomics
-The next step in a typical NGS pipeline is to map & align our reads to the reference genome (e.g. using tools like `bwa mem`). Since our data is from a MinION metagenomic study, we have to find out the taxas first. 
+## Run QC
+Unlike to NGS data, here we are using a different QC tool. The tool is called NanoPlot and is already installed. Got he [GitHub site](https://github.com/wdecoster/NanoPlot) and execute NanoPlot on your data. Copy the HTMP report to Windows and put the command / some of the graphs to your local Word file.  
 
-### Run Kraken
-For doing that, we have to introduce a new tool called [kraken](https://ccb.jhu.edu/software/kraken). Kraken is a system for assigning taxonomic labels to short DNA sequences, usually obtained through metagenomic studies. Please create a local out-folder in your home directory and specify the input fastq file. Tool is installed at /opt/tools/genetics/kraken/, please specify the complete path to kraken!
 
-      kraken --db /opt/tools/genetics/kraken/minikraken_20171013_4GB/ --threads 1 --fastq-input --preload --output <out-file> <input>
+### Run Mapping/Alignment
+For mapping and alignment we are using [minimap2](https://github.com/lh3/minimap2). The tool is already installed, execute it on the raw FASTQ data (without applying any QC-trimming etc.). Convert the resulting \*.sam file to a \*.bam file and index it. The reference can be found here: `~/genepi-teaching/students/reference-data/chrM.fasta`
+
+## Visualize Mapping
+- Run `samtools depth` on your BAM file and (also use the`-a` option) and write the result to a file
+- Download the file and visualize with e.g. Excel
+- Have a look at the file with Tablet
       
-### Run Kraken Report
-To create a report, do the following:
+### Variant Calling
+Run Variant Calling with a tool created fot mtDNA data.
+`/opt/tools/mutserve/mutserve call <your-bam.bam> --reference ~/genepi-teaching/students/reference-data/chrM.fasta --level 0.10 --output <output.vcf>`
 
-     kraken-report --db /opt/tools/genetics/kraken/minikraken_20171013_4GB/ <input> > <report-file>
+### Haplogroups
+mtDNA profiles can also be grouped into so called [haplogroups](https://en.wikipedia.org/wiki/Human_mitochondrial_DNA_haplogroup). 
+- Upload the VCF File to https://haplogrep.i-med.ac.at
+- Interpret the results (use the Haplogrep docs) and add information to your Word file.  
 
-### Analyse report
-Find out which taxas are recognized in Barcode05 and 06.  What are the percentages? 
-     
-## Align & Variant Calling
-Select one bacteria of your choice. Find the reference genome sequence and run an alignment using https://github.com/lh3/minimap2 and call variants using freebayes (https://github.com/ekg/freebayes). 
-
-## Task Metyhlation Pipeline
-
-     bwa index meth_ref.fasta
-     bwa mem -x ont2d meth_ref.fasta fasta/reads.fasta > meth_01.sam
-     samtools view -bS meth_01.sam > meth_01.bam
-     samtools sort meth_01.bam sorted_meth_01
-     samtools index sorted_meth_01.bam
-     
-     nanopolish index -d fast5/ output.fastq
-     
-     /opt/tools/nanopolish/nanopolish call-methylation --progress -t 8 -r reads.fasta -g meth_ref.fasta -b sorted_meth_01.bam > methylation_01.tsv
- 
-     python /opt/tools/nanopolish/nanopolish/scripts/calculate_methylation_frequency.py -c 2.5 -i methylation_01.tsv > methylation_01_freq.tsv
-
+## Bonus: Automize steps
+Summarize all commands into a simple Bash script and execute it. 
