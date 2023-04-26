@@ -4,7 +4,7 @@ Welcome to the Genepi MinION Hackathon! Your task today is to analyse mtDNA data
 ## Setup
 * Create a Word Document (named: SS23_NGS_PHD_Surname.docx) and document what you did (e.g. commands, screenshots, graphics). This file must be sent to us at the end of the class.
 * Create a folder `project-day` within  `genepi-teaching/students/<your-q-number>`. 
-* Copy resulting fastqs from one of the barcodes (barcode 01 - barcode 12) to your `project-day`  folder. The files are located here: `~/genepi-teaching/ngs-bioinformatics/2023-molmed/seq_data/fastq_pass/barcode*/*fastq`. Ideally, everyone should use a different barcode. 
+* Copy resulting fastqs from one of the barcodes (barcode 01 - barcode 12) to your `project-day`  folder. The files are located here: `~/genepi-teaching/ngs-bioinformatics/2023-ngs-phd`. Ideally, everyone should use the fastq data from a different barcode. 
 
 ## Run QC
 Unlike to NGS data, here we are using a different QC tool. The tool is called NanoPlot and is already installed at the cluster. Go to the [GitHub site](https://github.com/wdecoster/NanoPlot) and execute NanoPlot on your data. Copy the HTMP report to Windows and put the command / some of the graphs to your local Word file.  
