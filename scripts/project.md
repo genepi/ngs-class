@@ -27,7 +27,7 @@ Run samtools depth on your BAM file (add the -a option; what is this option doin
       
 ### Variant Calling
 Run Variant Calling with a tool created fot mtDNA data.
-To run the tool enter the following command: `/opt/tools/mutserve/mutserve call` and add the required parameters. (Specify reference, level output and input). As a `level` use a level `0.1`). (Hint: /opt/tools/mutserve/mutserve call <your-bam.bam> --reference ~/genepi-teaching/students/reference-data/chrM.fasta ...)
+To run the tool enter the following command: `/opt/tools/mutserve/mutserve call` and add the required parameters. (Specify reference, level output and input). As a `level` use a level `0.1`. (Hint: /opt/tools/mutserve/mutserve call <your-bam.bam> --reference ~/genepi-teaching/students/reference-data/chrM.fasta ...)
 
 ### Filter VCF
 Use bcftools to extract the chromosome, position and coverage column (DP) from the VCF file.  
