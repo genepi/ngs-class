@@ -54,7 +54,7 @@ Sebastian:
 Sebastian:
 * Bash Scripting
 * Introduction to Nextflow
-* [Exercises Day 2](scripts/tool-installation.md) (skipped)
+* [Exercises Day 2](scripts/tool-installation.md)
 
 
 *Lunch
@@ -64,7 +64,7 @@ Stefan:
 
 ### Day 4
 Stefan, Sebastian:
-* Genepi Hackathon
+* [Genepi Hackathon](https://github.com/genepi/ngs-class/blob/master/scripts/project.md)
 
 ## Credits
 https://github.com/quinlan-lab/applied-computational-genomics
