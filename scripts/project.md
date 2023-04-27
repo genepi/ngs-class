@@ -54,4 +54,4 @@ Copy a second barcode folder to your `project-day` folder. Write a bash script i
 
 
 ### PCR Products
-<img src="../images/human_mtDNA_Map_wPCR.png"  width=25% height=25%>
+<img src="../images/human_mtDNA_Map_wPCR.png"  width=50% height=50%>
