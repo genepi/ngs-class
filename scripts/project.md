@@ -5,9 +5,9 @@ Mind that a transposase library prep on so short amplicons (about 8.5 kb each) p
 Sequencing chemistry was R9 (older chemistry version), which has a higher error rate than the latest V14 chemistry.
 
 ## Setup
-* Create a Word Document (named: SS23_NGS_PHD_Surname.docx) and document what you did (e.g. commands, screenshots, graphics). This file must be sent to us at the end of the class.
+* Create a Word Document (named: SS23_NGS_PHD_Surname.docx) and document what you do (e.g. commands, screenshots, graphics). This file must be sent to us at the end of the class to Sebastian/Stefan via Mail.
 * Create a folder `project-day` within  `genepi-teaching/students/<your-q-number>`. 
-* Copy resulting fastqs from one of the barcodes (barcode 01 - barcode 12) to your `project-day`  folder. The files are located here: `~/genepi-teaching/ngs-bioinformatics/2023-ngs-phd`. Barcode assignment by Stefan and Sebastian. Create a new sub-folder with the barcode name in the `project-day` folder. 
+* Copy one of the barcode folders (barcode 03 - barcode 12, `cp -r <folder> .`) to your `project-day`  folder. The files are located here: `~/genepi-teaching/ngs-bioinformatics/2023-ngs-phd`. The structure should look like this at the end.
 
 ### Structure
 ```
@@ -19,7 +19,6 @@ Sequencing chemistry was R9 (older chemistry version), which has a higher error 
 ## Run QC
 Unlike to NGS data, here we are using a different QC tool. The tool is called [NanoPlot](https://github.com/wdecoster/NanoPlot) and is already installed at the cluster. Go to the GitHub site, read the documentation and execute NanoPlot on your data. Look through the options and assemble what you like most. Explore the outputs, copy them to Windows and put the command as well as read statistics and the most useful graphs to your local Word file. 
 
-
 ### Run Mapping/Alignment
 For mapping and alignment we are using [minimap2](https://github.com/lh3/minimap2). The tool is also already installed, execute it on the raw FASTQ data (without applying any QC-trimming etc.). Convert the resulting `sam file` to a `bam file` and index it. The reference can be found here: `~/genepi-teaching/students/reference-data/chrM.fasta`
 
@@ -28,7 +27,7 @@ Run samtools depth on your BAM file (add the -a option; what is this option doin
       
 ### Variant Calling
 Run Variant Calling with a tool created fot mtDNA data.
-To run the tool enter the following command: `/opt/tools/mutserve/mutserve`. To run it please specify the required parameters. As a `level` specify `0.1`. 
+To run the tool enter the following command: `/opt/tools/mutserve/mutserve` and add the required parameters. (As a `level` specify `0.1`). 
 
 ### Filter VCF
 Use bcftools to extract the chromosome, position and coverage column (DP) from the VCF file.  
