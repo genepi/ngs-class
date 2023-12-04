@@ -1,6 +1,6 @@
 # Exercises Unix Basics
 
-Your task: Execute the commands and send the commands from Task 3 - Task 5 to sebastian.schoenherr@i-med.ac.at.
+Execute the tasks and send the commands from Task 3 - Task 5 to sebastian.schoenherr@i-med.ac.at.
 
 ## Task 1
 Connect to `genepi-lehre.i-med.ac.at` with your username/password using the Windows Powershell!
