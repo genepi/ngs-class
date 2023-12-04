@@ -1,4 +1,4 @@
-# Exercises Unix Basics
+# Exercises Linux Basics
 
 Execute the tasks and send the commands from Task 3 - Task 5 to sebastian.schoenherr@i-med.ac.at.
 
