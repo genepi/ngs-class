@@ -13,7 +13,7 @@ How many lines are included in each file?
 ## Task 4
 Grep the SNP rs13326165 and the SNP rs17173637 from `genepi-teaching/ngs-bioinformatics/data/unix/snp_lookup` and write it to a file. 
 
-## Task 5 [Stefan]
+## Task 5 [can be skipped]
 Now, try to find the SNPs your boss asked you. Use the `grep` command to output the lines from `eGFR_SNPs.csv`. 
 As a pattern file use `HDL_SNPs.txt`. Also add the `-w` option. 
 Why do we need to add `-w`? (`eGFR_SNPs.csv` and `HDL_SNPs.txt`). How many SNPs did you find? Write them to a file and copy it to Windows.
