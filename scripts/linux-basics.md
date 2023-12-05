@@ -9,7 +9,8 @@ Connect to `genepi-lehre.i-med.ac.at` with your username/password using the Wind
 Try to navigate on the Bash, create a folder and navigate around. 
 
 ## Task 3
-`eGFR_SNPs.csv` and `HDL_SNPs.txt` are located in the folder `genepi-teaching/ngs-bioinformatics/data/unix/snp_lookup`. 
+`eGFR_SNPs.csv` and `HDL_SNPs.txt` are located in the folder 
+`genepi-teaching/ngs-bioinformatics/data/unix/snp_lookup`. 
 How many lines are included in each file? (Tip: You can either navigate to the folder with `cd` or you can execute grep directly from your home directory). 
 
 ## Task 4
