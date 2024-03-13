@@ -1,5 +1,10 @@
 # Exercises
 
+## Start
+### Task 0
+Create a local MS Word File name it `024_ngs_phd_<surename>.docx`. Replace <surename> with your actual name. 
+Copy commands, useful information, links etc to this file. This file should help you to reproduce steps from home after the class is over. 
+
 ## Linux 
 ## Task 1
 Connect to `genepi-lehre.i-med.ac.at` with your username/password using the Windows Powershell
@@ -25,7 +30,6 @@ Why do we need to add `-w`? (`eGFR_SNPs.csv` and `HDL_SNPs.txt`). How many SNPs 
 Data: **teaching/ngs/data/unix/snp_lookup**
 
 ## Nextflow
-
 ### Task 1
 Execute the pipeline with a test profile.
 ```
@@ -48,3 +52,6 @@ Execute it as follows:
 export NXF_SINGULARITY_CACHEDIR=/mnt/genepi-lehre/teaching/ngs/singualarity/
 nextflow run main.nf -c projectXY.config -profile singularity
 ```
+
+### Task 3
+Go to https://nf-co.re/ and find a pipeline which could be useful in your field. Try to understand how to execute it!
