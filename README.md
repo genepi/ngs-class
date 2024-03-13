@@ -10,7 +10,7 @@ Basic knowledge in Genetics and and Computional Biology is needed to run genetic
 * [Official course information]([https://inside.i-med.ac.at/online/wbLv.wbShowLVDetail?pStpSpNr=872000](https://inside.i-med.ac.at/online/wbLv.wbShowLVDetail?pStpSpNr=893330))
 
 ## Lecturer
-[Stefan Coassin](stefan.coassin@i-med.ac.at), [Sebastian Schoenherr](sebastian.schoenherr@i-med.ac.at)  
+[Stefan Coassin](https://genepi.i-med.ac.at/team/coassin-stefan/) & [Sebastian Schoenherr](https://genepi.i-med.ac.at/team/schoenherr-sebastian)  
 Institute of Genetic Epidemiology  
 Medical University of Innsbruck 
 
