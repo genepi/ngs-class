@@ -4,7 +4,7 @@
 Basic knowledge in Genetics and and Computional Biology is needed to run genetic analyses and interpret results. The goal of this course is to give students insights in both areas and present them a blueprint for large-scale studies.  
 
 ## Location & Time
-* March 18 - March 21 2022 
+* March 18 - March 21 2024 
 * Start: March 18 10:00am
 * Location: Computerraum C6 (FP301200) Fritz Pregl Strasse 3, 1. UG (Basement)
 * [Official course information]([https://inside.i-med.ac.at/online/wbLv.wbShowLVDetail?pStpSpNr=872000](https://inside.i-med.ac.at/online/wbLv.wbShowLVDetail?pStpSpNr=893330))
