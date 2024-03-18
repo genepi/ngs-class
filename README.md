@@ -41,9 +41,9 @@ Stefan:
 
 Sebastian:
 * Alignment
-* [Alignment Exercises](https://github.com/seppinho/ngs-class/blob/master/scripts/mapping.md)
+* [Exercises Mapping](scripts/exercises.md)
 * Tablet Viewer, Variant Calling + Simple Exercise 
-* [Exercises](https://github.com/seppinho/ngs-class/blob/master/scripts/variant-calling.md) 
+* [Exercises Variant Calling ](scripts/exercises.md)
 
 
 ### Day 3
