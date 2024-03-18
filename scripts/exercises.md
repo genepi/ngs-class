@@ -42,9 +42,9 @@ In the first exercise we align data with `bwa mem`:
 
 ### Task 2 
 Now, we convert the file to the BAM format.
-* Execute `samtools view -Sb 4153.sam > 4153.bam` to convert the file from SAM to BAM. 
-* Execute `samtools sort 4153.bam -o 4153_sorted.bam` to sort the file by position. 
-* Create an index with `samtools index 4153_sorted.bam`. This will also create a index file (4153_sorted.bam.bai)
+* Execute `samtools view -Sb 4153.sam > 4153.bam` to convert the file from SAM to BAM. Explain the command!
+* Execute `samtools sort 4153.bam -o 4153_sorted.bam` to sort the file by position.  Explain the command!
+* Create an index with `samtools index 4153_sorted.bam`. This will also create an index file (4153_sorted.bam.bai). What do you think is this command doing?
  
 ### Task 3 
 Run `samtools depth <aligned-file-sorted.bam>` on the file and interpret the output. Learn about the `-a` parameter and add it to your command. 
