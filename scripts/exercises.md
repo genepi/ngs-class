@@ -36,15 +36,15 @@ Data: **teaching/ngs/data/unix/snp_lookup**
 ### Task 1
 In the first exercise we align data with `bwa mem`:
 * Create a folder `mapping` under `teaching/students/<q-number>` and change to this folder. Substitute <q-number> with your q-number!
-* Copy the files `4153_S13_L001_R1_001.fastq.gz` and `4153_S13_L001_R2_001.fastq.gz` from here: `~/teaching/ngs/data/fastq/exercises/miseq` using `cp <path_to_file> .`. (The point at the end of command means that the data is copied to the current location). 
-* Run mapping with a command similar to this:
-`bwa mem ~/teaching/ngs/data/ref/kiv2_6.fasta <r1.fq> <r2.fq> > 4153.sam`
+* Copy the files `4153_S13_L001_R1_001.fastq.gz` and `4153_S13_L001_R2_001.fastq.gz` from here: `~/teaching/ngs/data/fastq/exercises/miseq` using `cp <path_to_file> .`. (The point at the end of command means that the data is copied to the current location).
+* Reference is available here: `~/teaching/ngs/data/ref/kiv2_6.fasta` 
+* Run mapping with this [Getting Started Guide](https://github.com/lh3/bwa?tab=readme-ov-file#getting-started)
 
 ### Task 2 
 Now, we convert the file to the BAM format.
-* Execute `samtools view -Sb 4153.sam > 4153.bam` to convert the file from SAM to BAM. Explain the command!
-* Execute `samtools sort 4153.bam -o 4153_sorted.bam` to sort the file by position.  Explain the command!
-* Create an index with `samtools index 4153_sorted.bam`. This will also create an index file (4153_sorted.bam.bai). What do you think is this command doing?
+* Use samtools to convert a SAM file to a BAM file. Ask Google or ChatGPT for help. 
+* Now we have to sort the file by coordinates. Ask Google or ChatGPT for help.Explain the command!
+* Create an index with `samtools index <bam_file>`. This will  create an index file. What do you think is this command doing?
  
 ### Task 3 
 Run `samtools depth <aligned-file-sorted.bam>` on the file and interpret the output. Learn about the `-a` parameter and add it to your command. Write the output to a file.
