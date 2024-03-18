@@ -5,7 +5,7 @@ Basic knowledge in Genetics and and Computional Biology is needed to run genetic
 
 ## Location & Time
 * March 18 - March 21 2024 
-* Start: March 18 10:00am
+* Start: March 18 10:00am - 4:30pm
 * Location: Computerraum C6 (FP301200) Fritz Pregl Strasse 3, 1. UG (Basement)
 * [Official course information]([https://inside.i-med.ac.at/online/wbLv.wbShowLVDetail?pStpSpNr=872000](https://inside.i-med.ac.at/online/wbLv.wbShowLVDetail?pStpSpNr=893330))
 
