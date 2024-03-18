@@ -47,7 +47,7 @@ Now, we convert the file to the BAM format.
 * Create an index with `samtools index 4153_sorted.bam`. This will also create an index file (4153_sorted.bam.bai). What do you think is this command doing?
  
 ### Task 3 
-Run `samtools depth <aligned-file-sorted.bam>` on the file and interpret the output. Learn about the `-a` parameter and add it to your command. 
+Run `samtools depth <aligned-file-sorted.bam>` on the file and interpret the output. Learn about the `-a` parameter and add it to your command. Write the output to a file.
 
 ### Tasks 4
 Download the file to Windows
