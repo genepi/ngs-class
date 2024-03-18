@@ -24,15 +24,11 @@ Stefan:
 * NGS Technology Basics; Illumina; Iontorrent 
 * Library types Single, Paired, mate 
 
-Sebastian:
-* Bioinformatics Introduction
-
 *Lunch 
 
 Sebastian:
 * Linux Introduction 
-* Install Tools and Trim
-* [Exercises Day 1](scripts/linux-basics.md)
+* [Exercises Day 1](scripts/exercises.md)
 
 ### Day 2 
 Stefan:
