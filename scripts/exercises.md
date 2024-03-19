@@ -62,6 +62,14 @@ Install "Tablet" (*.exe available in the Shared Drive) and load the BAM file via
 ### Task 1 - Use the aligned file and call variants
 Checkout [freebayes](https://github.com/ekg/freebayes#usage) and call your variants. As an input the aligned file (aligned.bam) is required. Write the output to a file ending with .vcf. (freebayes <ref> <bam> > out.vcf)
 
+Similar to our You can also use a different variant caller
+
+### Task 2 - Use a second variant caller
+Similar to our "minimal variant calling experiment" you can also combine "bcftools mpileup" with "bcftools call".
+```
+bcftools mpileup -f <ref.fa> <input.bam> | bcftools call -m -v -Ov -o <out.vcf> -
+```
+
 ### Task 2 - Learn bcftools
 [Bcftools](https://samtools.github.io/bcftools/bcftools.html) are utilities for variant calling and manipulating VCFs and BCFs. Try to learn the bcftools convert command extract a region from the vcf file. 
 
