@@ -55,7 +55,7 @@ Run `samtools depth <aligned-file-sorted.bam>` on the file and interpret the out
 Download the file to Windows with WinSCP. 
 
 ### Task 5
-Install "Tablet" (*.exe availablle in the Shared Drive) and load the BAM file via *Open Assembly*. You also need to specify the reference, you can find the KIV_2.fasta reference in the Shared Drive.   
+Install "Tablet" (*.exe available in the Shared Drive) and load the BAM file via *Open Assembly*. You also need to specify the reference, you can find the KIV_2.fasta reference in the Shared Drive.   
 
 ## Variant Calling
 
