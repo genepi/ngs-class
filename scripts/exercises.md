@@ -38,7 +38,8 @@ In the first exercise we align data with `bwa mem`:
 * Create a folder `mapping` under `teaching/students/<q-number>` and change to this folder. Substitute <q-number> with your q-number!
 * Copy the files `4153_S13_L001_R1_001.fastq.gz` and `4153_S13_L001_R2_001.fastq.gz` from here: `~/teaching/ngs/data/fastq/exercises/miseq` using `cp <path_to_file> .`. (The point at the end of command means that the data is copied to the current location).
 * Reference is available here: `~/teaching/ngs/data/ref/kiv2_6.fasta` 
-* Run mapping with this [Getting Started Guide](https://github.com/lh3/bwa?tab=readme-ov-file#getting-started)
+* Update this command from the [Getting Started Guide](https://github.com/lh3/bwa?tab=readme-ov-file#getting-started). Please note that the `bwa index` command can be skipped. 
+  `./bwa mem ref.fa read1.fq read2.fq | gzip -3 > aln-pe.sam.gz`
 
 ### Task 2 
 Now, we convert the file to the BAM format.
