@@ -46,7 +46,7 @@ In the first exercise we align data with `bwa mem`:
 ### Task 2 
 Now, we convert the file to the BAM format.
 * Use samtools to convert *and* sort a SAM file to a BAM file. Ask Google or ChatGPT for help. 
-* Create an index with `samtools index <bam_file>`. This will  create an index file. What do you think is this command doing?
+* Create an index with `samtools index <bam_file>`. This will  create an index file. Why is an index needed?
  
 ### Task 3 
 Run `samtools depth <aligned-file-sorted.bam>` on the file and interpret the output. Learn about the `-a` parameter and add it to your command. Write the output to a file.
