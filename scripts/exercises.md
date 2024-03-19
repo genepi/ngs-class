@@ -45,8 +45,7 @@ In the first exercise we align data with `bwa mem`:
 
 ### Task 2 
 Now, we convert the file to the BAM format.
-* Use samtools to convert a SAM file to a BAM file. Ask Google or ChatGPT for help. 
-* Now we have to sort the file by coordinates. Ask Google or ChatGPT for help.Explain the command!
+* Use samtools to convert *and* sort a SAM file to a BAM file. Ask Google or ChatGPT for help. 
 * Create an index with `samtools index <bam_file>`. This will  create an index file. What do you think is this command doing?
  
 ### Task 3 
