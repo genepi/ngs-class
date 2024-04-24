@@ -23,7 +23,7 @@ The first step of our analysis is to run a QC analysis on our data. For Nanopore
 ```
 NanoPlot --fastq_rich <your-fastq-files> -o <output-directory>
 ``` 
-**HINT**: Use `*fastq.gz` for "your-fastq-files" if you have several files!
+**HINT**: Use `*fastq.gz` for `<your-fastq-files>` if you have several files!
 
 This tool outputs a HTML report, look for the report, download it to your local filesystem and see what information you can identify. Add some plots to your Word file!
 
@@ -32,9 +32,9 @@ This tool outputs a HTML report, look for the report, download it to your local 
 Now it's time to align our data using a tool called `minimap2`. Replace <your-fastq-file> with your input-file (included in your barcode folder) and <yourbarcode> with the name of your actual barcode. The reference can be found here: `~/genepi-teaching/students/reference-data/chrM.fasta`
 
 ```
-minimap2 -ax map-ont <reference> <your-fastq-file> | samtools sort > <yourbarcode>.bam
+minimap2 -ax map-ont <reference> <your-fastq-files> | samtools sort > <yourbarcode>.bam
 ```
-**HINT**: Use `*fastq.gz` for "your-fastq-files" if you have several files!
+**HINT**: Use `*fastq.gz` for `<your-fastq-files>` if you have several files!
 
 ## Visualize Mapping
 Run samtools depth on your BAM file and visualize the result.txt file with Excel.
