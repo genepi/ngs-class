@@ -23,9 +23,9 @@ Mind that a transposase library prep on so short amplicons (about 8.5 kb each) p
 Count the reads in your sequencing experiment by combining the commands `zcat *fastq.gz`, `|`, and `wc -l` and explain the command and output in your Word file. If you see almost no reads included (< 400), copy a different barcode to your `project-day` folder and redo Task 1. 
 
 ### Task 2
-The second task is to run a QC analysis on your data. For Nanopore data, we use a tool called [Nanoplot](https://github.com/wdecoster/NanoPlot?tab=readme-ov-file#usage). The usage looks complicated but at the end, you only need some options (--fastq_rich, -o)
+The second task is to run a QC analysis on your data. For Nanopore data, we use a tool called [Nanoplot](https://github.com/wdecoster/NanoPlot?tab=readme-ov-file#usage). The usage looks complicated but at the end, you only need the following options: `--fastq_rich <fastq-files>`, `--outdir <output-folder>`, `--maxlength 15000`).
 ```
-NanoPlot ...
+NanoPlot --fastq-rich <your-fastq-files> ...
 ``` 
 **HINT**: Use `*fastq.gz` if you have several files!
 
