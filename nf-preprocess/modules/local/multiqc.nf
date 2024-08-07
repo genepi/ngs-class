@@ -6,6 +6,6 @@ process RUN_MULTIQC {
 	  path "*.html"
 
 	"""
-	 multiqc . 
+	 multiqc ${json}
 	"""
 }
