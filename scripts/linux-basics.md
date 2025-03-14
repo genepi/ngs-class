@@ -14,10 +14,8 @@ How many lines are included in each file? (Tip: You can either navigate to the f
 Grep the SNP `rs13326165` and the SNP `rs17173637` from `eGFR_SNPs.csv` and write it to a file. 
 
 ## Task 5
-Now grep the SNP `rs133299` from `eGFR_SNPs.csv`. How many lines are displayed? How would you interpret the output? What happens if you use the following grep command and what is the difference?:
-```
-grep -w rs133299 ~/genepi-teaching/ngs/data/unix/snp_lookup/eGFR_SNPs.csv
-```
+Now grep the SNP `rs133299` from `eGFR_SNPs.csv`. How many lines are displayed? How would you interpret the output? What happens if you add `-w` to the grep command and what is the difference?
+
 
 ## Task 6 
 Give the 2 Bash tutorials a try:
