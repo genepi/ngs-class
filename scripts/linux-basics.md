@@ -21,5 +21,5 @@ grep -w rs133299 ~/genepi-teaching/ngs/data/unix/snp_lookup/eGFR_SNPs.csv
 
 ## Task 6 
 Give the 2 Bash tutorials a try:
-https://sandbox.bio/tutorials/terminal-basics/
-https://sandbox.bio/tutorials/carpentries-shell-novice/
+* https://sandbox.bio/tutorials/terminal-basics/
+* https://sandbox.bio/tutorials/carpentries-shell-novice/
