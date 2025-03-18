@@ -7,6 +7,6 @@ process RUN_MULTIQC {
 	  path "*.html",  emit: seb
 
 	"""
-	 multiqc . 
+	 multiqc ${json}  
 	"""
 }
