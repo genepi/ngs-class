@@ -1,0 +1,5 @@
+nf-preprocess/fastp-test/fastq/test_1.fq
+nf-preprocess/fastp-test/fastq/test_2.fq
+nf-preprocess/fastp-test/reports/multiqc_report.html
+nf-preprocess/fastp-test/reports/test_1.html
+nf-preprocess/fastp-test/reports/test_2.html
