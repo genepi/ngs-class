@@ -11,9 +11,9 @@ I'll use our metagenomics data from barcode 5 to go through the steps:
       
 ## Use Kraken
 
-      /opt/tools/kraken-tool/kraken --db /opt/tools/kraken/minikraken_20171013_4GB/ --threads 1 --fastq-input --preload --output kraken-out.txt barcode05.fastq
+      /opt/tools/genetics/kraken/kraken --db /opt/tools/genetics/kraken/minikraken_20171013_4GB/ --threads 1 --fastq-input --preload --output kraken-out.txt barcode05.fastq
       
-       /opt/tools/kraken-tool/kraken-report --db /opt/tools/kraken/minikraken_20171013_4GB kraken-out.txt > kraken-report.txt
+       /opt/tools/genetics/kraken/kraken-report --db /opt/tools/genetics/kraken/minikraken_20171013_4GB kraken-out.txt > kraken-report.txt
        
      
        
