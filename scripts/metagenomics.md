@@ -15,7 +15,9 @@ I'll use our metagenomics data from barcode 5 to go through the steps:
       
        /opt/tools/genetics/kraken/kraken-report --db /opt/tools/genetics/kraken/minikraken_20171013_4GB kraken-out.txt > kraken-report.txt
        
-     
+#### List of all Kraken databases with the contained organsism:
+`https://benlangmead.github.io/aws-indexes/k2`
+
        
 ## Analyse Report and select a genome       
 
