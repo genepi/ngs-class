@@ -6,7 +6,7 @@ Mind that a transposase library prep on so short amplicons (about 8.5 kb each) p
 ## Setup
 * Create a Word Document with your last name (named: `SS25_NGS_Molmed_Lastname.docx`) and document what you do (e.g. commands, screenshots, graphics). This file must be sent at the end of the class to Sebastian. 
 * Login to `genepi-lehre.i-med.ac.at` and create a folder `project-day` within  `genepi-teaching/students/<your-q-number>`. All experiments must me executed from here. 
-* Copy your barcode folder (`cp -r <your-barcode> .`) to your `project-day` folder. The files are located here: `~/genepi-teaching/ngs/2024-ngs-molmed`. The structure should look like below (e.g. for barcode04).
+* Copy your barcode folder (`cp -r <your-barcode> .`) to your `project-day` folder. The files are located here: `~/genepi-teaching/ngs/2025-ngs-molmed`. The structure should look like below (e.g. for barcode04).
 * After the `cp` has been finished, verify that fastq files are available within your folder.  
 
 ## Structure
